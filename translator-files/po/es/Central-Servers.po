@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-07-02 22:17+0200\n"
-"PO-Revision-Date: 2021-06-02 10:36+0200\n"
+"PO-Revision-Date: 2021-07-02 22:33+0200\n"
 "Last-Translator: daryl <darylo1@hotmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: en_US\n"
@@ -20,28 +20,28 @@ msgstr ""
 #: wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "hidden"
-msgstr ""
+msgstr "hidden"
 
 #. type: YAML Front Matter: lang
 #: wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "en"
-msgstr ""
+msgstr "es"
 
 #. type: YAML Front Matter: layout
 #: wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "redirect"
-msgstr ""
+msgstr "redirect"
 
 #. type: YAML Front Matter: permalink
 #: wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "/wiki/Central-Servers"
-msgstr ""
+msgstr "/wiki/Central-Servers"
 
 #. type: YAML Front Matter: redirect
 #: wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "/wiki/Directory-Servers"
-msgstr ""
+msgstr "/wiki/Directory-Servers"
