@@ -93,7 +93,7 @@ use_po_module () {
 		if [ -f $trans_file ] ; then
 		    echo "$basename".md translated into "$lang"
 		fi
-		
+
 	done <   <(find -L "$SRC_DIR" -name "*.md"  -print0)
 }
 
@@ -104,9 +104,5 @@ use_po_module () {
 while IFS= read -r -d '' dir ; do
 	lang=$(basename -s .md "$dir")
 	echo "$lang"
-	use_po_module "$lang"   
+	use_po_module "$lang"
 done <   <(find "$PO_DIR" -mindepth 1 -maxdepth 1 -type d -print0)
-
-# Produce a file with translation status of all .po files
-source ./po4a-stats.sh
-
