@@ -1,11 +1,14 @@
 #!/bin/bash
 
+# Directory for stats file
+STAT_DIR="../translator-files"
+
 # Remove stats file before creating new one
-rm -f "translator-files/statistics.md"
+rm -f "../translator-files/statistics.md"
 
 # Create table header
-echo "|Language| File | Status |" >> translator-files/statistics.md
-echo "|--------|------|--------|" >> translator-files/statistics.md
+echo "|Language| File | Status |" >> "$STAT_DIR"/statistics.md
+echo "|--------|------|--------|" >> "$STAT_DIR"/statistics.md
 
 produce_stats () {
 # Determine file names
@@ -13,13 +16,13 @@ produce_stats () {
 		basename="$(basename -s .md "$file")"
 
 		# Stats printed to translator-files/statistics.md
-		echo -n "|**"$lang"**| **"$basename".po**|" >> translator-files/statistics.md
-		msgfmt --statistics "$PO_DIR/$lang/$basename".po &>> translator-files/statistics.md
+		echo -n "|**"$lang"**| **"$basename".po**|" >> "$STAT_DIR"/statistics.md
+		msgfmt --statistics "$PO_DIR/$lang/$basename".po &>> "$STAT_DIR"/statistics.md
 
 	done <   <(find -L "$SRC_DIR" -name "*.md"  -print0)
 
 	#separator between languages
-	echo "|**-----**|**--------------------**|**--------------------**|" >> translator-files/statistics.md
+	echo "|**-----**|**--------------------**|**--------------------**|" >> "$STAT_DIR"/statistics.md
 }
 
 # Run produce_stats on each language folder
