@@ -1,5 +1,4 @@
 #!/bin/bash
-# You need gettext
 
 # Remove stats file before creating new one
 rm -f "translator-files/statistics.md"
@@ -29,7 +28,7 @@ while IFS= read -r -d '' dir ; do
 	produce_stats "$lang"
 done <   <(find "$PO_DIR" -mindepth 1 -maxdepth 1 -type d -print0)
 
-
-#rm -f *.mo
+# Remove unwanted messages.mo file created
+rm -f *.mo
 
 echo Statistics file created
