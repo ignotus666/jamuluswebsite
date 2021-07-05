@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-05 12:25+0000\n"
+"POT-Creation-Date: 2021-07-05 14:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Daryl Hanlon <darylo1@hotmail.com>\n"
 "Language-Team: Jamulus Translators <jamulus.io>\n"
@@ -16,31 +16,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: wiki/en/Network-Requirements.md:1
+#: ../wiki/en/Network-Requirements.md:1
 #, no-wrap
 msgid "en"
 msgstr "es"
 
 #. type: YAML Front Matter: layout
-#: wiki/en/Network-Requirements.md:1
+#: ../wiki/en/Network-Requirements.md:1
 #, no-wrap
 msgid "wiki"
 msgstr "wiki"
 
 #. type: YAML Front Matter: permalink
-#: wiki/en/Network-Requirements.md:1
+#: ../wiki/en/Network-Requirements.md:1
 #, no-wrap
 msgid "/wiki/Network-Requirements"
 msgstr "/wiki/Network-Requirements"
 
 #. type: YAML Front Matter: title
-#: wiki/en/Network-Requirements.md:1
+#: ../wiki/en/Network-Requirements.md:1
 #, no-wrap
 msgid "Quality, Delay and Bandwidth"
 msgstr "Calidad, Retardo y Ancho de Banda"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:9
+#: ../wiki/en/Network-Requirements.md:9
 msgid ""
 "{% include breadcrumb.html root=\"More\" branch1=\"Running a Server\" "
 "branch1-url=\"Running-a-Server\" %}"
@@ -49,17 +49,17 @@ msgstr ""
 "branch1-url=\"Running-a-Server\" %}"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:11
+#: ../wiki/en/Network-Requirements.md:11
 msgid "# Network Requirements"
 msgstr "# Requisitos de Red"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:13
+#: ../wiki/en/Network-Requirements.md:13
 msgid "## Audio bandwidth"
 msgstr "## Ancho de banda de audio"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:15
+#: ../wiki/en/Network-Requirements.md:15
 msgid ""
 "The audio settings have an impact on the required network bandwidth. The "
 "table below summarises network requirements with respect to the "
@@ -70,32 +70,32 @@ msgstr ""
 "configuración de:"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:16
+#: ../wiki/en/Network-Requirements.md:16
 msgid "Channels : stereo/mono"
 msgstr "Canales : estéreo/mono"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:17
+#: ../wiki/en/Network-Requirements.md:17
 msgid "Quality : high/medium/low"
 msgstr "Calidad : alta/media/baja"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:18
+#: ../wiki/en/Network-Requirements.md:18
 msgid "Audio buffer duration : 2.67 ms, 5.33 ms, 10.67 ms, 21.33 ms"
 msgstr "Duración buffer audio: 2,67 ms, 5,33 ms, 10,67 ms, 21,33 ms"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:20
+#: ../wiki/en/Network-Requirements.md:20
 msgid "With the following units"
 msgstr "Con las siguientes unidades"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:21
+#: ../wiki/en/Network-Requirements.md:21
 msgid "ms : milliseconds"
 msgstr "ms : milisegundos"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:22
+#: ../wiki/en/Network-Requirements.md:22
 msgid ""
 "Kbit/s : Kilo-bits per second (Reminder : 1 Mbit/s = 1024 Kbit/s, 1 KByte/s "
 "= 8 Kbit/s)"
@@ -104,12 +104,12 @@ msgstr ""
 "KByte/s = 8 Kbit/s)"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:23
+#: ../wiki/en/Network-Requirements.md:23
 msgid "Mbit/s : Mega-bits per second"
 msgstr "Mbit/s : Mega-bits por segundo"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:32
+#: ../wiki/en/Network-Requirements.md:32
 #, no-wrap
 msgid ""
 "| Channels  | Quality | Bandwidth (for buffer : 2.67 ms) |  Bandwidth (for buffer : 5.33 ms) | Bandwidth (for buffer : 10.67 ms) | Bandwidth (for buffer : 21.33 ms) |\n"
@@ -131,12 +131,12 @@ msgstr ""
 "| Mono | Baja | 534 Kbit/s | 306 Kbit/s | 190 Kbit/s | 132 Kbit/s |\n"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:34
+#: ../wiki/en/Network-Requirements.md:34
 msgid "## Network bandwidth"
 msgstr "## Ancho de banda de red"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:37
+#: ../wiki/en/Network-Requirements.md:37
 msgid ""
 "There is one upstream (musician sending to the server) and one downstream "
 "(server sending back the mix to the musician)  <figure><img src=\"{{site."
@@ -151,7 +151,7 @@ msgstr ""
 "calidades de audio, de baja a alta\"></figure>"
 
 #. type: Plain text
-#: wiki/en/Network-Requirements.md:38
+#: ../wiki/en/Network-Requirements.md:38
 msgid ""
 "Note also that mean ADSL2 transfer rate is 10 Mbit/s for downstream and 1 "
 "Mbit/s for upstream. The actual performance depends on distance to the "

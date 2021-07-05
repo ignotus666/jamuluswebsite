@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-07-05 12:24+0000\n"
+"POT-Creation-Date: 2021-07-05 14:39+0200\n"
 "PO-Revision-Date: 2021-06-02 10:41+0200\n"
 "Last-Translator: daryl <darylo1@hotmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
@@ -17,36 +17,36 @@ msgstr ""
 "X-Generator: Lokalize 19.12.3\n"
 
 #. type: YAML Front Matter: category
-#: wiki/en/Central-Servers.md:1
+#: ../wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "hidden"
 msgstr ""
 
 #. type: YAML Front Matter: lang
-#: wiki/en/Central-Servers.md:1
+#: ../wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "en"
 msgstr ""
 
 #. type: YAML Front Matter: layout
-#: wiki/en/Central-Servers.md:1
+#: ../wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "redirect"
 msgstr ""
 
 #. type: YAML Front Matter: permalink
-#: wiki/en/Central-Servers.md:1
+#: ../wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "/wiki/Central-Servers"
 msgstr ""
 
 #. type: YAML Front Matter: redirect
-#: wiki/en/Central-Servers.md:1
+#: ../wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "/wiki/Directory-Servers"
 msgstr ""
 
 #. type: Plain text
-#: wiki/en/Central-Servers.md:8
+#: ../wiki/en/Central-Servers.md:8
 msgid "THIS IS A TEST 19"
 msgstr ""

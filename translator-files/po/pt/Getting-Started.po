@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-05 12:24+0000\n"
+"POT-Creation-Date: 2021-07-05 14:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,59 +16,59 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: wiki/en/Getting-Started.md:1
+#: ../wiki/en/Getting-Started.md:1
 #, no-wrap
 msgid "en"
 msgstr "pt"
 
 #. type: YAML Front Matter: layout
-#: wiki/en/Getting-Started.md:1
+#: ../wiki/en/Getting-Started.md:1
 #, no-wrap
 msgid "wiki"
 msgstr "wiki"
 
 #. type: YAML Front Matter: permalink
-#: wiki/en/Getting-Started.md:1
+#: ../wiki/en/Getting-Started.md:1
 #, no-wrap
 msgid "/wiki/Getting-Started"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: wiki/en/Getting-Started.md:1
+#: ../wiki/en/Getting-Started.md:1
 #, no-wrap
 msgid "Setup"
 msgstr "Setup"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:9
+#: ../wiki/en/Getting-Started.md:9
 msgid "# Setup - getting started with Jamulus"
 msgstr "# Setup - começando com Jamulus"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:11
+#: ../wiki/en/Getting-Started.md:11
 msgid "To get the best from Jamulus, at a minimum you will need:"
 msgstr "Para obter o melhor de Jamulus, você precisa no mínimo de:"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:13
+#: ../wiki/en/Getting-Started.md:13
 #, no-wrap
 msgid "**A wired internet connection** (not wi-fi - see the [FAQ](/wiki/FAQ#why-shouldnt-i-use-wireless-equipment))\n"
 msgstr "**Uma conexão de internet a cabo** (não wi-fi - veja o [FAQ](/wiki/FAQ#why-shouldnt-i-use-wireless-equipment))\n"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:14
+#: ../wiki/en/Getting-Started.md:14
 #, no-wrap
 msgid "**Wired headphones** (not Bluetooth or speakers - see the [FAQ](/wiki/FAQ#why-shouldnt-i-use-wireless-equipment))\n"
 msgstr "**Fones de ouvido com cabo** (nem Bluetooth e nem Auto-falantes - veja o [FAQ](/wiki/FAQ#why-shouldnt-i-use-wireless-equipment))\n"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:15
+#: ../wiki/en/Getting-Started.md:15
 #, no-wrap
 msgid "**A reasonable audio device, sound card and/or mic** ([see this list](/kb/2021/01/05/Jamulus-Sound-Devices.html) for examples)\n"
 msgstr "**Uma interface de áudio ou placa de som razoavelmente boa e/ou microfone** ([veja essa lista](/kb/2021/01/05/Jamulus-Sound-Devices.html) para exemplos)\n"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:17
+#: ../wiki/en/Getting-Started.md:17
 msgid ""
 "If you have any questions, please see the [Discussions](https://github.com/"
 "jamulussoftware/jamulus/discussions)"
@@ -77,12 +77,12 @@ msgstr ""
 "github.com/jamulussoftware/jamulus/discussions)"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:19
+#: ../wiki/en/Getting-Started.md:19
 msgid "## Installation"
 msgstr "## Instalação"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:21
+#: ../wiki/en/Getting-Started.md:21
 msgid ""
 "To get Jamulus working with your hardware, please follow the installation "
 "guide for your platform:"
@@ -91,22 +91,22 @@ msgstr ""
 "instruções de acordo com sua plataforma:"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:23
+#: ../wiki/en/Getting-Started.md:23
 msgid "[Windows](/wiki/Installation-for-Windows)"
 msgstr "[Windows](/wiki/Installation-for-Windows)"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:24
+#: ../wiki/en/Getting-Started.md:24
 msgid "[macOS](/wiki/Installation-for-Macintosh)"
 msgstr "[macOS](/wiki/Installation-for-Macintosh)"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:25
+#: ../wiki/en/Getting-Started.md:25
 msgid "[Linux](/wiki/Installation-for-Linux)"
 msgstr "[Linux](/wiki/Installation-for-Linux)"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:27
+#: ../wiki/en/Getting-Started.md:27
 msgid ""
 "And for now, close all other applications. It’s best to start simple at "
 "first."
@@ -115,18 +115,18 @@ msgstr ""
 "simples."
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:29
+#: ../wiki/en/Getting-Started.md:29
 msgid "## Jamulus main window"
 msgstr "## Jamulus - Janela principal"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:31
+#: ../wiki/en/Getting-Started.md:31
 msgid "When you open Jamulus, you will see a window which looks like this:"
 msgstr ""
 "Quando você abre o Jamulus, você vê a seguinte janela parecida com essa:"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:36
+#: ../wiki/en/Getting-Started.md:36
 #, no-wrap
 msgid ""
 "<figure>\n"
@@ -140,12 +140,12 @@ msgstr ""
 "</figure>\n"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:39
+#: ../wiki/en/Getting-Started.md:39
 msgid "## Setting up a profile"
 msgstr "## Configurando um perfil"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:41
+#: ../wiki/en/Getting-Started.md:41
 msgid ""
 "First, let others know who you are. Click on “View” (bar on the top) > “My "
 "Profile…” Now you will see this:"
@@ -154,7 +154,7 @@ msgstr ""
 "superior) > “Meu perfil…” Então você vai ver isso:"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:46
+#: ../wiki/en/Getting-Started.md:46
 #, no-wrap
 msgid ""
 "<figure>\n"
@@ -168,23 +168,23 @@ msgstr ""
 "</figure>\n"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:49
+#: ../wiki/en/Getting-Started.md:49
 msgid "Fill in at least “Alias/Name” and close the window."
 msgstr "Preencha pelo menos o campo “Apelido/Nome” e feche a janela."
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:51
+#: ../wiki/en/Getting-Started.md:51
 msgid "## Connecting to a server and testing your sound"
 msgstr "## Conectando a um servidor e testando o som"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:53
+#: ../wiki/en/Getting-Started.md:53
 #, no-wrap
 msgid "**Before playing with others, we recommend that you connect to an empty server to test your setup**, and make sure you are listening to the signal coming back from the server (if possible) and not yourself.\n"
 msgstr "**Antes de começar a tocar com outros, é recomendável se conectar a um servidor vazio para testar o seu setup**, para ter certeza que você está ouvindo o sinal vindo direto do servidor (se possível) e não o seu próprio som.\n"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:55
+#: ../wiki/en/Getting-Started.md:55
 msgid ""
 "Before you connect to a server, you should **not** be able to hear "
 "yourself.  Listening to your sound from Jamulus (and not from yourself) is "
@@ -197,7 +197,7 @@ msgstr ""
 "os outros ([veja o FAQ](/wiki/FAQ#why-should-i-not-listen-to-my-own-signal))."
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:57
+#: ../wiki/en/Getting-Started.md:57
 msgid ""
 "Now use the “Connect” button in the Jamulus main window to join a server. A "
 "window will now open:"
@@ -206,7 +206,7 @@ msgstr ""
 "um servidor. A seguinte janela vai se abrir:"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:62
+#: ../wiki/en/Getting-Started.md:62
 #, no-wrap
 msgid ""
 "<figure>\n"
@@ -220,7 +220,7 @@ msgstr ""
 "</figure>\n"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:64
+#: ../wiki/en/Getting-Started.md:64
 msgid ""
 "The most important thing about servers is their “ping time”. The bigger the "
 "number, the harder it will be to play in time with others. Usually, you "
@@ -231,7 +231,7 @@ msgstr ""
 "um servidor cujo ping seja menor que 15 ms se possível."
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:66
+#: ../wiki/en/Getting-Started.md:66
 msgid ""
 "Once connected to a server, make sure you can hear yourself OK and fix any "
 "input volume or other problems. And of course, check that you are also able "
@@ -244,12 +244,12 @@ msgstr ""
 "but-its-difficult-to-keep-together)."
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:68
+#: ../wiki/en/Getting-Started.md:68
 msgid "## Playing for the first time"
 msgstr "## Tocando pela primeira vez"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:70
+#: ../wiki/en/Getting-Started.md:70
 msgid ""
 "With your sound all set up, you are ready to go. When you connect to a "
 "server (you may want to select a genre from the list), the faders you see on "
@@ -266,7 +266,7 @@ msgstr ""
 "cima, o canal ficará mais forte para você."
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:75
+#: ../wiki/en/Getting-Started.md:75
 #, no-wrap
 msgid ""
 "<figure>\n"
@@ -280,7 +280,7 @@ msgstr ""
 "</figure>\n"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:77
+#: ../wiki/en/Getting-Started.md:77
 msgid ""
 "If you don’t want others to hear your audio, click on the “Mute Myself” "
 "button which will stop your audio from being sent to other people. They "
@@ -295,7 +295,7 @@ msgstr ""
 "podem ouvi-lo porque eles silenciaram o seu canal no mix deles."
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:79
+#: ../wiki/en/Getting-Started.md:79
 msgid ""
 "Note that you can use the Chat facility at any time to message other people "
 "while you are connected. The welcome message in the chat may also state some "
@@ -306,7 +306,7 @@ msgstr ""
 "mensage de boas-vindas também pode informá-lo sobre as regras de uso."
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:81
+#: ../wiki/en/Getting-Started.md:81
 msgid ""
 "More information about using Jamulus can be found in the [Software Manual](/"
 "wiki/Software-Manual)."
@@ -315,12 +315,12 @@ msgstr ""
 "software](/wiki/Software-Manual)."
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:83
+#: ../wiki/en/Getting-Started.md:83
 msgid "## Troubleshooting"
 msgstr "## Solução de Problemas"
 
 #. type: Plain text
-#: wiki/en/Getting-Started.md:84
+#: ../wiki/en/Getting-Started.md:84
 msgid ""
 "Having audio trouble? Can't see servers, or some other issue? Have a look at "
 "the [Troubleshooting page](/wiki/Client-Troubleshooting), or feel free to "

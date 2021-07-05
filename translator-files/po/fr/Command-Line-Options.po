@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-07-05 12:24+0000\n"
+"POT-Creation-Date: 2021-07-05 14:39+0200\n"
 "PO-Revision-Date: 2021-06-06 08:35+0200\n"
 "Last-Translator: daryl <darylo1@hotmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
@@ -17,36 +17,36 @@ msgstr ""
 "X-Generator: Lokalize 19.12.3\n"
 
 #. type: YAML Front Matter: lang
-#: wiki/en/Command-Line-Options.md:1
+#: ../wiki/en/Command-Line-Options.md:1
 #, no-wrap
 msgid "en"
 msgstr "fr"
 
 #. type: YAML Front Matter: layout
-#: wiki/en/Command-Line-Options.md:1
+#: ../wiki/en/Command-Line-Options.md:1
 #, no-wrap
 msgid "wiki"
 msgstr "wiki"
 
 #. type: YAML Front Matter: permalink
-#: wiki/en/Command-Line-Options.md:1
+#: ../wiki/en/Command-Line-Options.md:1
 #, no-wrap
 msgid "/wiki/Command-Line-Options"
 msgstr "/wiki/Command-Line-Options"
 
 #. type: YAML Front Matter: title
-#: wiki/en/Command-Line-Options.md:1
+#: ../wiki/en/Command-Line-Options.md:1
 #, no-wrap
 msgid "Command Line Options"
 msgstr "Options de la ligne de commande"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:9
+#: ../wiki/en/Command-Line-Options.md:9
 msgid "# Command Line Options"
 msgstr "# Options de la ligne de commande"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:11
+#: ../wiki/en/Command-Line-Options.md:11
 msgid ""
 "Most common functions in Jamulus can be set using the GUI, but these and "
 "others can also be set using options given in a terminal window. Exactly how "
@@ -58,7 +58,7 @@ msgstr ""
 "manière exacte de procéder dépend de votre système d'exploitation."
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:13
+#: ../wiki/en/Command-Line-Options.md:13
 msgid ""
 "For example on Windows, to have a client use a specific settings file, right-"
 "click on the Jamulus shortcut and choose \"Properties\" > Target. Add the "
@@ -70,7 +70,7 @@ msgstr ""
 "arguments nécessaires à Jamulus.exe :"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:17
+#: ../wiki/en/Command-Line-Options.md:17
 msgid ""
 "```shell \"C:\\Program Files (x86)\\Jamulus\\Jamulus.exe\" --inifile \"C:"
 "\\path\\to\\myinifile.ini\" ```"
@@ -79,7 +79,7 @@ msgstr ""
 "\\path\\to\\myinifile.ini\" ```"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:19
+#: ../wiki/en/Command-Line-Options.md:19
 msgid ""
 "For macOS, start a Terminal window and run Jamulus with the desired options "
 "like this:"
@@ -88,7 +88,7 @@ msgstr ""
 "options souhaitées comme ceci :"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:23
+#: ../wiki/en/Command-Line-Options.md:23
 #, no-wrap
 msgid ""
 "```shell\n"
@@ -100,13 +100,13 @@ msgstr ""
 "```\n"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:25
+#: ../wiki/en/Command-Line-Options.md:25
 #, no-wrap
 msgid "***\n"
 msgstr "***\n"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:27
+#: ../wiki/en/Command-Line-Options.md:27
 msgid ""
 "You can see all possible options your version supports by starting Jamulus "
 "with the `-h` option."
@@ -115,7 +115,7 @@ msgstr ""
 "with the `-h` option."
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:29
+#: ../wiki/en/Command-Line-Options.md:29
 msgid ""
 "_Note that the following options will not alter settings made in the GUI._"
 msgstr ""
@@ -123,12 +123,12 @@ msgstr ""
 "dans l'interface graphique._"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:31
+#: ../wiki/en/Command-Line-Options.md:31
 msgid "### General settings (client and server modes)"
 msgstr "### Paramètres généraux (modes client et serveur)"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:41
+#: ../wiki/en/Command-Line-Options.md:41
 #, no-wrap
 msgid ""
 "| Short   | Long name         | `[...]` means optional parameter                                                                             | Notes                                                    |\n"
@@ -152,12 +152,12 @@ msgstr ""
 "|  `-v`     | `--version`       | Affiche les informations sur la version et quitte                                                 | \t\t\t\t\t\t\t\t\t\t  |\n"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:43
+#: ../wiki/en/Command-Line-Options.md:43
 msgid "### Server only"
 msgstr "### Serveur seulement"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:58
+#: ../wiki/en/Command-Line-Options.md:58
 #, no-wrap
 msgid ""
 "| Short | Long name         | `[...]` means optional parameter                                                                                                                             | Notes                                                                    |\n"
@@ -190,12 +190,12 @@ msgstr ""
 "|       | `--serverbindip` | Specify the IP address to bind to                                 |\n"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:60
+#: ../wiki/en/Command-Line-Options.md:60
 msgid "### Client only"
 msgstr "### Client seulement"
 
 #. type: Plain text
-#: wiki/en/Command-Line-Options.md:68
+#: ../wiki/en/Command-Line-Options.md:68
 #, no-wrap
 msgid ""
 "| Short | Long name         | `[...]` means optional parameter                                                                                                         | Notes                                                                       |\n"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-07-05 12:25+0000\n"
+"POT-Creation-Date: 2021-07-05 14:39+0200\n"
 "PO-Revision-Date: 2021-05-30 22:44+0200\n"
 "Last-Translator: daryl <darylo1@hotmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
@@ -17,31 +17,31 @@ msgstr ""
 "X-Generator: Lokalize 19.12.3\n"
 
 #. type: YAML Front Matter: lang
-#: wiki/en/Choosing-a-Server-Type.md:1
+#: ../wiki/en/Choosing-a-Server-Type.md:1
 #, no-wrap
 msgid "en"
 msgstr "es"
 
 #. type: YAML Front Matter: layout
-#: wiki/en/Choosing-a-Server-Type.md:1
+#: ../wiki/en/Choosing-a-Server-Type.md:1
 #, no-wrap
 msgid "wiki"
 msgstr "wiki"
 
 #. type: YAML Front Matter: permalink
-#: wiki/en/Choosing-a-Server-Type.md:1
+#: ../wiki/en/Choosing-a-Server-Type.md:1
 #, no-wrap
 msgid "/wiki/Choosing-a-Server-Type"
 msgstr "/wiki/Choosing-a-Server-Type"
 
 #. type: YAML Front Matter: title
-#: wiki/en/Choosing-a-Server-Type.md:1
+#: ../wiki/en/Choosing-a-Server-Type.md:1
 #, no-wrap
 msgid "Choosing a Server Type"
 msgstr "Elegir un Tipo de Servidor"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:9
+#: ../wiki/en/Choosing-a-Server-Type.md:9
 msgid ""
 "{% include breadcrumb.html root=\"More\" branch1=\"Running a Server\" "
 "branch1-url=\"Running-a-Server\" %}"
@@ -50,12 +50,12 @@ msgstr ""
 "branch1-url=\"Running-a-Server\" %}"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:11
+#: ../wiki/en/Choosing-a-Server-Type.md:11
 msgid "# Server Types"
 msgstr "# Tipos de servidor"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:13
+#: ../wiki/en/Choosing-a-Server-Type.md:13
 msgid ""
 "You can run your server in one of three \"modes\" (either at home or on a "
 "3rd party host):"
@@ -64,12 +64,12 @@ msgstr ""
 "host de terceros):"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:15
+#: ../wiki/en/Choosing-a-Server-Type.md:15
 msgid "### 1. Public"
 msgstr "### 1. Público"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:17
+#: ../wiki/en/Choosing-a-Server-Type.md:17
 msgid ""
 "Your server will be listed in the [directory server](Directory-Servers) list "
 "that clients use by default. Musicians can then discover and connect to your "
@@ -84,7 +84,7 @@ msgstr ""
 "conéctate a uno con latencia baja y empieza a tocar."
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:19
+#: ../wiki/en/Choosing-a-Server-Type.md:19
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/diagram-public-"
 "server.png\" loading=\"lazy\" alt=\"Diagram of connections between clients "
@@ -95,7 +95,7 @@ msgstr ""
 "un servidor Jamulus público\"></figure>"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:21
+#: ../wiki/en/Choosing-a-Server-Type.md:21
 msgid ""
 "This mode is activated by checking the \"Register my server...\" checkbox "
 "and (optionally) entering your server information."
@@ -104,7 +104,7 @@ msgstr ""
 "(opcionalmente) rellenando los campos de información sobre tu servidor."
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:23
+#: ../wiki/en/Choosing-a-Server-Type.md:23
 msgid ""
 "When running without the GUI (\"headless\"), the following would configure a "
 "public server:"
@@ -113,7 +113,7 @@ msgstr ""
 "servidor público:"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:29
+#: ../wiki/en/Choosing-a-Server-Type.md:29
 #, no-wrap
 msgid ""
 "~~~\n"
@@ -129,13 +129,14 @@ msgstr ""
 "~~~\n"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:31
+#: ../wiki/en/Choosing-a-Server-Type.md:31
 #, no-wrap
 msgid "**Note**: It is **not** necessary to port-forward or otherwise configure your router to run a public server.\n"
 msgstr "**Nota**: **No** es necesario abrir puertos ni realizar ninguna configuración del router para habilitar un servidor público.\n"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:33 wiki/en/Choosing-a-Server-Type.md:50
+#: ../wiki/en/Choosing-a-Server-Type.md:33
+#: ../wiki/en/Choosing-a-Server-Type.md:50
 msgid ""
 "See also [Command Line Options](Command-Line-Options) for other parameters "
 "you can set."
@@ -144,12 +145,12 @@ msgstr ""
 "otros parámetros que se pueden establecer."
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:36
+#: ../wiki/en/Choosing-a-Server-Type.md:36
 msgid "### 2. Private"
 msgstr "### 2. Privado"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:38
+#: ../wiki/en/Choosing-a-Server-Type.md:38
 msgid ""
 "This type of server will not be listed on a directory server list. You must "
 "give musicians your server address to connect their clients to. See [Running "
@@ -162,7 +163,7 @@ msgstr ""
 "Private-Server) para ver lo necesario para que otros se conecten a él."
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:40
+#: ../wiki/en/Choosing-a-Server-Type.md:40
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/diagram-private-"
 "server.png\" loading=\"lazy\" alt=\"Diagram of connections between clients "
@@ -173,12 +174,12 @@ msgstr ""
 "un servidor Jamulus privado\"></figure>"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:42
+#: ../wiki/en/Choosing-a-Server-Type.md:42
 msgid "This mode is activated by un-checking \"Register my server...\"."
 msgstr "Este modo se habilita desactivando \"Mi Servidor es Público...\"."
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:44
+#: ../wiki/en/Choosing-a-Server-Type.md:44
 msgid ""
 "When running without the GUI (\"headless\"), the following would configure a "
 "private server:"
@@ -187,17 +188,17 @@ msgstr ""
 "servidor privado:"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:48
+#: ../wiki/en/Choosing-a-Server-Type.md:48
 msgid "```shell Jamulus --nogui --server ```"
 msgstr "```shell Jamulus --nogui --server ```"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:52
+#: ../wiki/en/Choosing-a-Server-Type.md:52
 msgid "### 3. Directory"
 msgstr "### 3. Directorio"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:54
+#: ../wiki/en/Choosing-a-Server-Type.md:54
 msgid ""
 "Configuring your server as a Directory Server need only be done under "
 "special circumstances (e.g. for online events or musical associations). Most "
@@ -208,7 +209,7 @@ msgstr ""
 "musicales). La mayoría de las personas pueden ignorar este tipo."
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:56
+#: ../wiki/en/Choosing-a-Server-Type.md:56
 msgid ""
 "To view servers listed by a custom directory server, musicians must enter "
 "the address in their client’s \"Custom Directory Server\" settings field.  "
@@ -221,7 +222,7 @@ msgstr ""
 "Configuración de Conexión que es generada por ese directorio de servidores."
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:58
+#: ../wiki/en/Choosing-a-Server-Type.md:58
 msgid ""
 "Normal server operators can also register with your custom directory server "
 "so their servers can show up in your server list by setting yours as their "
@@ -232,7 +233,7 @@ msgstr ""
 "lista de servidores, estableciéndolo con la opción de `--centralserver`."
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:60
+#: ../wiki/en/Choosing-a-Server-Type.md:60
 msgid ""
 "To run a server as a Directory Server, it should be configured with `--"
 "directoryserver localhost` (that is, specify itself as the directory server "
@@ -243,12 +244,12 @@ msgstr ""
 "de directorio que recibe consultas)."
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:62
+#: ../wiki/en/Choosing-a-Server-Type.md:62
 msgid "#### Configuration points to note"
 msgstr "#### Notas sobre la configuración"
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:64
+#: ../wiki/en/Choosing-a-Server-Type.md:64
 msgid ""
 "If you want to control which servers can register with your Directory "
 "Server, you can enable a whitelist with the `--listfilter` command line "
@@ -261,7 +262,7 @@ msgstr ""
 "(Command-Line-Options) para más información sobre esta característica."
 
 #. type: Plain text
-#: wiki/en/Choosing-a-Server-Type.md:65
+#: ../wiki/en/Choosing-a-Server-Type.md:65
 msgid ""
 "When running a public Directory Server behind a NAT firewall on a private "
 "network, use the `--serverpublicip` option to specify the public IP address "

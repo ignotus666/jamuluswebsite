@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-05 12:24+0000\n"
+"POT-Creation-Date: 2021-07-05 14:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,31 +16,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: category
-#: wiki/en/Multiple-Audio-Interfaces.md:1
+#: ../wiki/en/Multiple-Audio-Interfaces.md:1
 #, no-wrap
 msgid "hidden"
 msgstr ""
 
 #. type: YAML Front Matter: lang
-#: wiki/en/Multiple-Audio-Interfaces.md:1
+#: ../wiki/en/Multiple-Audio-Interfaces.md:1
 #, no-wrap
 msgid "en"
 msgstr "it"
 
 #. type: YAML Front Matter: layout
-#: wiki/en/Multiple-Audio-Interfaces.md:1
+#: ../wiki/en/Multiple-Audio-Interfaces.md:1
 #, no-wrap
 msgid "redirect"
 msgstr ""
 
 #. type: YAML Front Matter: permalink
-#: wiki/en/Multiple-Audio-Interfaces.md:1
+#: ../wiki/en/Multiple-Audio-Interfaces.md:1
 #, no-wrap
 msgid "/wiki/Running-Jamulus-with-Multiple-Audio-Interfaces"
 msgstr ""
 
 #. type: YAML Front Matter: redirect
-#: wiki/en/Multiple-Audio-Interfaces.md:1
+#: ../wiki/en/Multiple-Audio-Interfaces.md:1
 #, no-wrap
 msgid "/kb/2020/11/24/Multiple-Audio-Interfaces.html"
 msgstr ""
