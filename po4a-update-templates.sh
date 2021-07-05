@@ -54,7 +54,7 @@ while IFS= read -r -d '' file ; do
 
         # po4a-updatepo will complain if the following is not met
         sed -i 's/Content-Type: text\/plain; charset=CHARSET/Content-Type: text\/plain; charset=UTF-8/g' "$po_file"
-
+        
         # If a new file has been added to /wiki/en/, add message after sed error to clarify it will be created
         if ! [ -f "$po_file" ] ; then
             echo creating "$po_file"
@@ -83,3 +83,6 @@ for lang in $(ls "$PO_DIR") ; do
 	    rm "$PO_DIR/$lang/"*.po~
     fi
 done
+
+# Produce a file with translation status of all .po files
+source ./po4a-stats.sh

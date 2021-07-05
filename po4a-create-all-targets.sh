@@ -106,3 +106,6 @@ while IFS= read -r -d '' dir ; do
 	echo "$lang"
 	use_po_module "$lang"
 done <   <(find "$PO_DIR" -mindepth 1 -maxdepth 1 -type d -print0)
+
+# Produce a file with translation status of all .po files
+source ./po4a-stats.sh
