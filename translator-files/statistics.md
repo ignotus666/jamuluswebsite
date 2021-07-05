@@ -1,4 +1,4 @@
-|language| file | status |
+|Language| File | Status |
 |--------|------|--------|
 |**fr**| **Server-Win-Mac.po**|34 translated messages.
 |**fr**| **FAQ.po**|26 translated messages.
@@ -31,7 +31,7 @@
 |**fr**| **Installation-for-Linux.po**|29 translated messages.
 |**fr**| **Network-Requirements.po**|19 translated messages.
 |**fr**| **Directory-Servers.po**|11 translated messages.
-|**-----**|**-----**|**-----**|
+|**-----**|**--------------------**|**--------------------**|
 |**it**| **Server-Win-Mac.po**|3 translated messages, 31 untranslated messages.
 |**it**| **FAQ.po**|2 translated messages, 24 untranslated messages.
 |**it**| **Server-Linux.po**|2 translated messages, 39 untranslated messages.
@@ -63,7 +63,7 @@
 |**it**| **Installation-for-Linux.po**|4 translated messages, 25 untranslated messages.
 |**it**| **Network-Requirements.po**|2 translated messages, 17 untranslated messages.
 |**it**| **Directory-Servers.po**|2 translated messages, 9 untranslated messages.
-|**-----**|**-----**|**-----**|
+|**-----**|**--------------------**|**--------------------**|
 |**de**| **Server-Win-Mac.po**|3 translated messages, 31 untranslated messages.
 |**de**| **FAQ.po**|2 translated messages, 24 untranslated messages.
 |**de**| **Server-Linux.po**|2 translated messages, 39 untranslated messages.
@@ -95,7 +95,7 @@
 |**de**| **Installation-for-Linux.po**|29 translated messages.
 |**de**| **Network-Requirements.po**|2 translated messages, 17 untranslated messages.
 |**de**| **Directory-Servers.po**|2 translated messages, 9 untranslated messages.
-|**-----**|**-----**|**-----**|
+|**-----**|**--------------------**|**--------------------**|
 |**pt**| **Server-Win-Mac.po**|4 translated messages, 30 untranslated messages.
 |**pt**| **FAQ.po**|2 translated messages, 24 untranslated messages.
 |**pt**| **Server-Linux.po**|3 translated messages, 38 untranslated messages.
@@ -127,7 +127,7 @@
 |**pt**| **Installation-for-Linux.po**|29 translated messages.
 |**pt**| **Network-Requirements.po**|2 translated messages, 17 untranslated messages.
 |**pt**| **Directory-Servers.po**|2 translated messages, 9 untranslated messages.
-|**-----**|**-----**|**-----**|
+|**-----**|**--------------------**|**--------------------**|
 |**es**| **Server-Win-Mac.po**|34 translated messages.
 |**es**| **FAQ.po**|26 translated messages.
 |**es**| **Server-Linux.po**|41 translated messages.
@@ -159,4 +159,4 @@
 |**es**| **Installation-for-Linux.po**|29 translated messages.
 |**es**| **Network-Requirements.po**|19 translated messages.
 |**es**| **Directory-Servers.po**|11 translated messages.
-|**-----**|**-----**|**-----**|
+|**-----**|**--------------------**|**--------------------**|
