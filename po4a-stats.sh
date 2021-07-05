@@ -12,10 +12,10 @@ produce_stats () {
 		basename="$(basename -s .md "$file")"
 
 		# Stats printed to translator-files/statistics.txt
-		echo "|**"$lang"**| **"$basename".po:**|" >> translator-files/statistics.md
-		echo -n "$(msgfmt --statistics "$PO_DIR/$lang/$basename".po)" &>> translator-files/statistics.md
+		echo -n "|**"$lang"**| **"$basename".po:**|" >> translator-files/statistics.md
+		msgfmt --statistics "$PO_DIR/$lang/$basename".po &>> translator-files/statistics.md
 		#echo -n '|' >> translator-files/statistics.md
-		echo '' >> translator-files/statistics.md
+		#echo '' >> translator-files/statistics.md
 
 	done <   <(find -L "$SRC_DIR" -name "*.md"  -print0)
 	echo '' >> translator-files/statistics.md
