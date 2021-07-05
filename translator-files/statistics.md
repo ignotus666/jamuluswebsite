@@ -146,7 +146,7 @@
 |**es**| **Getting-Started.po**|38 translated messages.
 |**es**| **Software-Manual.po**|108 translated messages.
 |**es**| **Running-a-Private-Server.po**|29 translated messages.
-|**es**| **Central-Servers.po**|5 translated messages, 1 fuzzy translation.
+|**es**| **Central-Servers.po**|6 translated messages.
 |**es**| **Installation-for-Macintosh.po**|24 translated messages, 1 fuzzy translation.
 |**es**| **index.po**|5 translated messages.
 |**es**| **Installation-for-Android.po**|20 translated messages.
