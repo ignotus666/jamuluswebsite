@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-07-05 15:35+0200\n"
-"PO-Revision-Date: 2021-07-05 14:27+0200\n"
+"POT-Creation-Date: 2021-07-05 16:21+0200\n"
+"PO-Revision-Date: 2021-07-05 16:22+0200\n"
 "Last-Translator: daryl <darylo1@hotmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: en_US\n"
@@ -48,7 +48,6 @@ msgstr "/wiki/Directory-Servers"
 
 #. type: Plain text
 #: ../wiki/en/Central-Servers.md:8
-#, fuzzy
 #| msgid "THIS IS A TEST 19"
-msgid "THIS IS A TEST 22"
-msgstr "ESTO ES UNA PRUEBA 19"
+msgid "THIS IS A TEST 23"
+msgstr "ESTO ES UNA PRUEBA 23"
