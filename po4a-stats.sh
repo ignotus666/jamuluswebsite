@@ -3,8 +3,8 @@
 
 # Remove stats file before creating new one
 rm -f "translator-files/statistics.md"
-echo "|"$lang" | file | status |"
-echo "|--------|------|--------|"
+echo "|"$lang" | file | status |" >> translator-files/statistics.md
+echo "|--------|------|--------|" >> translator-files/statistics.md
 
 produce_stats () {
 # Determine file names
@@ -14,6 +14,7 @@ produce_stats () {
 		# Stats printed to translator-files/statistics.txt
 		echo "|**"$lang"/"$basename".po:**|" >> translator-files/statistics.md
 		msgfmt --statistics "$PO_DIR/$lang/$basename".po &>> translator-files/statistics.md
+		echo -n '|' >> translator-files/statistics.md
 		echo '' >> translator-files/statistics.md
 
 	done <   <(find -L "$SRC_DIR" -name "*.md"  -print0)
