@@ -35,10 +35,10 @@ if ! [[ $(po4a --version | grep po4a | awk '{print $3}') > 0.63 ]] ; then
 fi
 
 # Check if source document folder exists in the right place
-if ! [ -d "$SRC_DIR" ] ; then
-	echo Error: please run this script from the root folder. >&2
-	exit 1
-fi
+#if ! [ -d "$SRC_DIR" ] ; then
+#	echo Error: please run this script from the root folder. >&2
+#	exit 1
+#fi
 
 ####################################
 # CREATE/UPDATE .po FILES
