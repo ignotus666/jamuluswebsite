@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-05 14:39+0200\n"
+"POT-Creation-Date: 2021-07-05 17:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,31 +16,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ../wiki/en/Software-Manual.md:1
+#: wiki/en/Software-Manual.md:1
 #, no-wrap
 msgid "en"
 msgstr "pt"
 
 #. type: YAML Front Matter: layout
-#: ../wiki/en/Software-Manual.md:1
+#: wiki/en/Software-Manual.md:1
 #, no-wrap
 msgid "wiki"
 msgstr "wiki"
 
 #. type: YAML Front Matter: permalink
-#: ../wiki/en/Software-Manual.md:1
+#: wiki/en/Software-Manual.md:1
 #, no-wrap
 msgid "/wiki/Software-Manual"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ../wiki/en/Software-Manual.md:1
+#: wiki/en/Software-Manual.md:1
 #, no-wrap
 msgid "Software Manual"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:9
+#: wiki/en/Software-Manual.md:9
 #, no-wrap
 msgid ""
 "# Jamulus User Manual\n"
@@ -48,44 +48,44 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:11
+#: wiki/en/Software-Manual.md:11
 msgid ""
 "This manual documents the Jamulus client application for use by musicians "
 "and singers using the software to connect to a server."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:13
+#: wiki/en/Software-Manual.md:13
 msgid "<details markdown=\"1\">"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:15
+#: wiki/en/Software-Manual.md:15
 msgid "<summary>Table of contents</summary>"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:17
+#: wiki/en/Software-Manual.md:17
 msgid "TOC"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:18
+#: wiki/en/Software-Manual.md:18
 msgid "{:toc}"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:20
+#: wiki/en/Software-Manual.md:20
 msgid "</details>"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:22
+#: wiki/en/Software-Manual.md:22
 msgid "# Main Window"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:28
+#: wiki/en/Software-Manual.md:28
 #, no-wrap
 msgid ""
 "<figure>\n"
@@ -95,18 +95,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:30
+#: wiki/en/Software-Manual.md:30
 msgid "## Delay and Buffer LEDs"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:32
+#: wiki/en/Software-Manual.md:32
 #, no-wrap
 msgid "**Delay** shows the status of the current audio latency:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:34
+#: wiki/en/Software-Manual.md:34
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/led-green.png\" "
 "style=\"float:left; margin-right:10px;\" loading=\"lazy\" alt=\"Image of a "
@@ -114,13 +114,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:36
+#: wiki/en/Software-Manual.md:36
 #, no-wrap
 msgid "**Green** - The delay is perfect for a jam session\n"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:38
+#: wiki/en/Software-Manual.md:38
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/led-yellow.png\" "
 "style=\"float:left; margin-right:10px;\" loading=\"lazy\" alt=\"Image of a "
@@ -128,13 +128,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:40
+#: wiki/en/Software-Manual.md:40
 #, no-wrap
 msgid "**Yellow** - A session is still possible but it may be harder to play\n"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:42
+#: wiki/en/Software-Manual.md:42
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/led-red.png\" "
 "style=\"float:left; margin-right:10px; clear: both;\" loading=\"lazy\" alt="
@@ -142,49 +142,49 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:44
+#: wiki/en/Software-Manual.md:44
 #, no-wrap
 msgid "**Red** - The delay is too large for jamming\n"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:46
+#: wiki/en/Software-Manual.md:46
 #, no-wrap
 msgid "**Buffers** shows the current audio/streaming status. If the light is **red**, the audio stream is interrupted. This is caused by one of the following problems:\n"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:48
+#: wiki/en/Software-Manual.md:48
 msgid ""
 "The network jitter buffer is not large enough for the current network/audio "
 "interface jitter."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:49
+#: wiki/en/Software-Manual.md:49
 msgid ""
 "The sound card's buffer delay (buffer size) is too small (see Settings "
 "window)."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:50
+#: wiki/en/Software-Manual.md:50
 msgid ""
 "The upload or download stream rate is too high for your internet bandwidth."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:51
+#: wiki/en/Software-Manual.md:51
 msgid "The CPU of the client or server is at 100%."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:54
+#: wiki/en/Software-Manual.md:54
 msgid "## Input"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:57
+#: wiki/en/Software-Manual.md:57
 msgid ""
 "This shows the level of the two stereo channels for your audio input.  Make "
 "sure not to clip the input signal to avoid distortions of the audio signal "
@@ -192,12 +192,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:59
+#: wiki/en/Software-Manual.md:59
 msgid "## Mute Myself button"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:61
+#: wiki/en/Software-Manual.md:61
 msgid ""
 "Cuts your audio stream to the server so that you will be able to hear "
 "yourself and see your own input levels, but other musicians will not. Be "
@@ -205,12 +205,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:63
+#: wiki/en/Software-Manual.md:63
 msgid "## Reverb effect"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:68
+#: wiki/en/Software-Manual.md:68
 msgid ""
 "Reverb can be applied to one local mono audio channel or to both channels in "
 "stereo mode.  The mono channel selection and the reverberation level can be "
@@ -221,12 +221,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:71
+#: wiki/en/Software-Manual.md:71
 msgid "## Chat"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:75
+#: wiki/en/Software-Manual.md:75
 msgid ""
 "The chat text entered in that dialog is sent to all connected clients. If a "
 "new chat message arrives and the Chat dialog is not already open, it will "
@@ -234,19 +234,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:77
+#: wiki/en/Software-Manual.md:77
 msgid "## Connect/disconnect button"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:80
+#: wiki/en/Software-Manual.md:80
 msgid ""
 "Opens a dialog where you can select a server to connect to. If you are "
 "connected, pressing this button will end the session."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:82
+#: wiki/en/Software-Manual.md:82
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/connection-setup-"
 "window.png\" style=\"border: 5px solid grey;\" loading=\"lazy\" alt=\"Image "
@@ -254,7 +254,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:84
+#: wiki/en/Software-Manual.md:84
 msgid ""
 "The Connection Setup window shows a list of available servers together with "
 "the number of occupants and the maximum number supported. Server operators "
@@ -267,14 +267,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:86
+#: wiki/en/Software-Manual.md:86
 msgid ""
 "You can filter the list by server name or location. To list only occupied "
 "servers, enter a \"#\" character."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:90
+#: wiki/en/Software-Manual.md:90
 msgid ""
 "If you know the IP address or URL of a server, you can connect to it using "
 "the Server Name/Address field. An optional port number can be added after "
@@ -284,12 +284,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:92
+#: wiki/en/Software-Manual.md:92
 msgid "## Server audio mixer"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:94
+#: wiki/en/Software-Manual.md:94
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/mixer-channles.png"
 "\" style=\"float:left; margin-right:10px; margin-bottom:20px; border: 5px "
@@ -298,7 +298,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:97
+#: wiki/en/Software-Manual.md:97
 msgid ""
 "The audio mixer screen shows each user connected to the server (including "
 "yourself).  The faders allow you to adjust the level of what you hear "
@@ -306,21 +306,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:99
+#: wiki/en/Software-Manual.md:99
 msgid ""
 "The VU meter shows the input level at the server - that is, the sound being "
 "sent."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:101
+#: wiki/en/Software-Manual.md:101
 msgid ""
 "If you have set your Audio Channel to Stereo or Stereo Out in your Settings, "
 "you will also see a pan control (shift-click to reset)."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:103
+#: wiki/en/Software-Manual.md:103
 msgid ""
 "If you see a \"mute\" icon above a user, it means that person cannot hear "
 "you. Either they have muted you, soloed one or more users not including you, "
@@ -328,7 +328,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:105
+#: wiki/en/Software-Manual.md:105
 msgid ""
 "Using the **Mute button** prevents users being heard in your local mix. Be "
 "aware that when you mute someone, they will see a \"muted\" icon above your "
@@ -338,7 +338,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:107
+#: wiki/en/Software-Manual.md:107
 msgid ""
 "The **Solo button** allows you to hear one or more users on their own. Those "
 "not soloed will be muted. Note also that those people who are not soloed "
@@ -346,14 +346,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:109
+#: wiki/en/Software-Manual.md:109
 msgid ""
 "Users are listed left to right in the order that they connect. You can "
 "change the sort order using the Edit option in the application menu."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:111
+#: wiki/en/Software-Manual.md:111
 msgid ""
 "You can group users together using the \"group\" toggle. Moving the fader of "
 "any member of the group will move the other faders in that group by the same "
@@ -362,31 +362,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:113
+#: wiki/en/Software-Manual.md:113
 msgid ""
 "If the server operator has enabled recording, you will see a message above "
 "the mixer showing that you are being recorded."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:118
+#: wiki/en/Software-Manual.md:118
 msgid "# Settings"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:120
+#: wiki/en/Software-Manual.md:120
 msgid "## My Profile"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:123
+#: wiki/en/Software-Manual.md:123
 msgid ""
 "From the View menu, select \"My Profile...\" to set your Alias/Name which is "
 "displayed below your fader in the server audio mixer board."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:125
+#: wiki/en/Software-Manual.md:125
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/settings-profile."
 "png\" style=\"border: 5px solid grey;\" loading=\"lazy\" alt=\"Image of a "
@@ -394,7 +394,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:127
+#: wiki/en/Software-Manual.md:127
 msgid ""
 "If you set an instrument and/or country, icons for these selections will "
 "also be shown below your fader. The skill setting changes the background "
@@ -403,7 +403,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:129
+#: wiki/en/Software-Manual.md:129
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/profile-tooltip.png"
 "\" style=\"width:30%;\" loading=\"lazy\" alt=\"Image of a tooltip showing "
@@ -411,36 +411,36 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:132
+#: wiki/en/Software-Manual.md:132
 msgid "### Skin"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:134
+#: wiki/en/Software-Manual.md:134
 msgid ""
 "This applies a skin to the main window, some of which are designed to "
 "accommodate larger ensembles."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:136
+#: wiki/en/Software-Manual.md:136
 msgid "### Mixer rows"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:138
+#: wiki/en/Software-Manual.md:138
 msgid ""
 "This sets the number of rows displayed in the server audio mixer, for use "
 "with larger ensembles."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:141
+#: wiki/en/Software-Manual.md:141
 msgid "## Audio/Network Setup"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:143
+#: wiki/en/Software-Manual.md:143
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/settings-network."
 "png\" style=\"border: 5px solid grey;\" loading=\"lazy\" alt=\"Image of a "
@@ -448,12 +448,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:145
+#: wiki/en/Software-Manual.md:145
 msgid "### Device"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:148
+#: wiki/en/Software-Manual.md:148
 msgid ""
 "Under the Windows operating system the ASIO driver (sound card) can be "
 "selected using Jamulus. If the selected ASIO driver is not valid an error "
@@ -462,12 +462,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:150
+#: wiki/en/Software-Manual.md:150
 msgid "### Input/output channel mapping"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:152
+#: wiki/en/Software-Manual.md:152
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/channel-mapping.png"
 "\" style=\"float:left; margin-right:10px; margin-bottom:20px;\" loading="
@@ -475,7 +475,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:156
+#: wiki/en/Software-Manual.md:156
 msgid ""
 "If the selected sound card device offers more than one input or output "
 "channel, the _Input Channel Mapping and Output Channel Mapping_ settings are "
@@ -484,25 +484,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:158
+#: wiki/en/Software-Manual.md:158
 msgid "### Audio channels"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:161
+#: wiki/en/Software-Manual.md:161
 msgid ""
 "Selects the number of audio channels to be used for communication between "
 "client and server. There are three modes available:"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:163
+#: wiki/en/Software-Manual.md:163
 #, no-wrap
 msgid "**Mono** and **Stereo** modes use one and two audio channels respectively.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:166
+#: wiki/en/Software-Manual.md:166
 #, no-wrap
 msgid ""
 "**Mono-in/Stereo-out**: The audio signal sent to the server is mono but the return signal is stereo. This is useful if the sound card has the instrument on one input channel and the microphone on the other. In that case\n"
@@ -510,7 +510,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:169
+#: wiki/en/Software-Manual.md:169
 msgid ""
 "Enabling stereo mode will increase your stream's data rate. Make sure your "
 "upload rate does not exceed the available upload speed of your internet "
@@ -518,7 +518,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:172
+#: wiki/en/Software-Manual.md:172
 msgid ""
 "In stereo streaming mode, no audio channel selection for the reverb effect "
 "will be available on the main window since the effect is applied to both "
@@ -526,12 +526,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:174
+#: wiki/en/Software-Manual.md:174
 msgid "### Audio quality"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:176
+#: wiki/en/Software-Manual.md:176
 msgid ""
 "The higher the audio quality, the higher your audio stream's data rate. Make "
 "sure your upload rate does not exceed the available upload speed of your "
@@ -539,12 +539,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:178
+#: wiki/en/Software-Manual.md:178
 msgid "### Buffer Delay"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:181
+#: wiki/en/Software-Manual.md:181
 msgid ""
 "The buffer delay setting is a fundamental setting of the Jamulus software. "
 "This setting has an influence on many connection properties. Three buffer "
@@ -552,25 +552,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:183
+#: wiki/en/Software-Manual.md:183
 #, no-wrap
 msgid "**64 samples** The preferred setting. Provides the lowest latency but does not work with all sound cards.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:184
+#: wiki/en/Software-Manual.md:184
 #, no-wrap
 msgid "**128 samples** Should work for most available sound cards.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:185
+#: wiki/en/Software-Manual.md:185
 #, no-wrap
 msgid "**256 samples** Should only be used on very slow computers, or with a slow internet connection.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:188
+#: wiki/en/Software-Manual.md:188
 msgid ""
 "Some sound card drivers do not allow the buffer delay to be changed from "
 "within the Jamulus software.  In this case the buffer delay setting is "
@@ -579,12 +579,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:190
+#: wiki/en/Software-Manual.md:190
 msgid "On Linux, use the JACK configuration tool to change the buffer size."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:194
+#: wiki/en/Software-Manual.md:194
 msgid ""
 "The actual buffer delay has an influence on the connection status, the "
 "current upload rate and the overall delay.  The lower the buffer size, the "
@@ -593,19 +593,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:196
+#: wiki/en/Software-Manual.md:196
 msgid ""
 "The buffer setting is therefore a trade-off between audio quality and "
 "overall delay."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:200
+#: wiki/en/Software-Manual.md:200
 msgid "### Jitter Buffer"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:204
+#: wiki/en/Software-Manual.md:204
 msgid ""
 "The jitter buffer compensates for network and sound card timing jitters. The "
 "size of the buffer therefore influences the quality of the audio stream (how "
@@ -614,7 +614,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:208
+#: wiki/en/Software-Manual.md:208
 msgid ""
 "You can set the jitter buffer size manually for your local client and the "
 "remote server. For the local jitter buffer, dropouts in the audio stream are "
@@ -624,14 +624,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:210
+#: wiki/en/Software-Manual.md:210
 msgid ""
 "The jitter buffer setting is therefore a trade-off between audio quality and "
 "overall delay."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:214
+#: wiki/en/Software-Manual.md:214
 msgid ""
 "If the Auto setting is enabled, the jitter buffers of your local client and "
 "the remote server are set automatically based on measurements of the network "
@@ -640,12 +640,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:216
+#: wiki/en/Software-Manual.md:216
 msgid "### Enable small network buffers"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:220
+#: wiki/en/Software-Manual.md:220
 msgid ""
 "Allows support for very small network audio packets. These are only used if "
 "the sound card buffer delay is smaller than 128 samples. The smaller the "
@@ -654,12 +654,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:222
+#: wiki/en/Software-Manual.md:222
 msgid "### Measurements"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:228
+#: wiki/en/Software-Manual.md:228
 msgid ""
 "The Ping Time is the time required for the audio stream to travel from the "
 "client to the server and back again.  This delay is introduced by the "
@@ -673,14 +673,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:230
+#: wiki/en/Software-Manual.md:230
 msgid ""
 "Overall Delay is calculated from the current Ping Time and the delay "
 "introduced by the current buffer settings."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:233
+#: wiki/en/Software-Manual.md:233
 msgid ""
 "Audio Upstream Rate depends on the current audio packet size and compression "
 "setting. Make sure that the upstream rate is not higher than your available "
@@ -689,12 +689,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:235
+#: wiki/en/Software-Manual.md:235
 msgid "## Advanced Setup"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:237
+#: wiki/en/Software-Manual.md:237
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/settings-advanced."
 "png\" style=\"border: 5px solid grey;\" loading=\"lazy\" alt=\"Image of a "
@@ -702,24 +702,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:239
+#: wiki/en/Software-Manual.md:239
 msgid "### Custom directory server address"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:241
+#: wiki/en/Software-Manual.md:241
 msgid ""
 "Leave this blank unless you need to enter the address of a directory server "
 "other than the default."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:243
+#: wiki/en/Software-Manual.md:243
 msgid "### New Client Level"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:247
+#: wiki/en/Software-Manual.md:247
 msgid ""
 "This setting defines the fader level of a newly connected client in percent. "
 "If a new user connects to the current server, they will get the specified "
@@ -729,24 +729,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:249
+#: wiki/en/Software-Manual.md:249
 msgid "### Input Boost"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:251
+#: wiki/en/Software-Manual.md:251
 msgid ""
 "Increases the gain from your device. Use this if your device delivers a gain "
 "that is too quiet for Jamulus."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:253
+#: wiki/en/Software-Manual.md:253
 msgid "### Feedback Protection"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:255
+#: wiki/en/Software-Manual.md:255
 msgid ""
 "Attempts to detect audio feedback loops. Once detected, this feature will "
 "activate the \"Mute Myself\" button and show an explanation message to "
@@ -754,12 +754,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:258
+#: wiki/en/Software-Manual.md:258
 msgid "### Input Balance"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Software-Manual.md:261
+#: wiki/en/Software-Manual.md:261
 msgid ""
 "Controls the relative levels of the left and right local audio channels. For "
 "a mono signal it acts as a pan between the two channels. For example, if a "

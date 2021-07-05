@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-05 14:39+0200\n"
+"POT-Creation-Date: 2021-07-05 17:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,31 +16,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: category
-#: ../wiki/en/Onboarding.md:1
+#: wiki/en/Onboarding.md:1
 #, no-wrap
 msgid "hidden"
 msgstr ""
 
 #. type: YAML Front Matter: lang
-#: ../wiki/en/Onboarding.md:1
+#: wiki/en/Onboarding.md:1
 #, no-wrap
 msgid "en"
 msgstr "de"
 
 #. type: YAML Front Matter: layout
-#: ../wiki/en/Onboarding.md:1
+#: wiki/en/Onboarding.md:1
 #, no-wrap
 msgid "redirect"
 msgstr ""
 
 #. type: YAML Front Matter: permalink
-#: ../wiki/en/Onboarding.md:1
+#: wiki/en/Onboarding.md:1
 #, no-wrap
 msgid "/wiki/Onboarding"
 msgstr ""
 
 #. type: YAML Front Matter: redirect
-#: ../wiki/en/Onboarding.md:1
+#: wiki/en/Onboarding.md:1
 #, no-wrap
 msgid "/wiki/Getting-Started"
 msgstr "/wiki/Getting-Started"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-05 16:21+0200\n"
+"POT-Creation-Date: 2021-07-05 17:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,36 +16,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: category
-#: ../wiki/en/Central-Servers.md:1
+#: wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "hidden"
 msgstr "hidden"
 
 #. type: YAML Front Matter: lang
-#: ../wiki/en/Central-Servers.md:1
+#: wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "en"
 msgstr "pt"
 
 #. type: YAML Front Matter: layout
-#: ../wiki/en/Central-Servers.md:1
+#: wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "redirect"
 msgstr "redirect"
 
 #. type: YAML Front Matter: permalink
-#: ../wiki/en/Central-Servers.md:1
+#: wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "/wiki/Central-Servers"
 msgstr ""
 
 #. type: YAML Front Matter: redirect
-#: ../wiki/en/Central-Servers.md:1
+#: wiki/en/Central-Servers.md:1
 #, no-wrap
 msgid "/wiki/Directory-Servers"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Central-Servers.md:8
-msgid "THIS IS A TEST 23"
+#: wiki/en/Central-Servers.md:8
+msgid "THIS IS A TEST 26"
 msgstr ""

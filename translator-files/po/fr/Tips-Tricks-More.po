@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-07-05 14:39+0200\n"
+"POT-Creation-Date: 2021-07-05 17:07+0200\n"
 "PO-Revision-Date: 2021-06-03 15:37+0200\n"
 "Last-Translator: daryl <darylo1@hotmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
@@ -17,41 +17,41 @@ msgstr ""
 "X-Generator: Lokalize 19.12.3\n"
 
 #. type: YAML Front Matter: lang
-#: ../wiki/en/Tips-Tricks-More.md:1
+#: wiki/en/Tips-Tricks-More.md:1
 #, no-wrap
 msgid "en"
 msgstr "fr"
 
 #. type: YAML Front Matter: layout
-#: ../wiki/en/Tips-Tricks-More.md:1
+#: wiki/en/Tips-Tricks-More.md:1
 #, no-wrap
 msgid "wiki"
 msgstr "wiki"
 
 #. type: YAML Front Matter: permalink
-#: ../wiki/en/Tips-Tricks-More.md:1
+#: wiki/en/Tips-Tricks-More.md:1
 #, no-wrap
 msgid "/wiki/Tips-Tricks-More"
 msgstr "/wiki/Tips-Tricks-More"
 
 #. type: YAML Front Matter: title
-#: ../wiki/en/Tips-Tricks-More.md:1
+#: wiki/en/Tips-Tricks-More.md:1
 #, no-wrap
 msgid "Tips, Tricks and More"
 msgstr "Trucs et astuces"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:9
+#: wiki/en/Tips-Tricks-More.md:9
 msgid "# Tips & Tricks"
 msgstr "# Trucs et astuces"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:11
+#: wiki/en/Tips-Tricks-More.md:11
 msgid "## Learning about remote band rehearsing"
 msgstr "## Découvrir les répétitions de groupes à distance"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:13
+#: wiki/en/Tips-Tricks-More.md:13
 msgid ""
 "Jamulus user [Chris Rimple](https://sourceforge.net/u/chrisrimple/profile/) "
 "has compiled a massive amount of information relating to [Remote Band "
@@ -71,14 +71,14 @@ msgstr ""
 "d'autres solutions."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:15
+#: wiki/en/Tips-Tricks-More.md:15
 msgid "## Using Jamulus audio in Zoom (or other) meeting apps"
 msgstr ""
 "## Utilisation de l'audio Jamulus dans les applications de réunion Zoom (ou "
 "autres)"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:17
+#: wiki/en/Tips-Tricks-More.md:17
 msgid ""
 "Several users have reported success allowing a \"virtual audience\" for a "
 "Jamulus session by using [JACK audio](https://jackaudio.org) to route the "
@@ -91,7 +91,7 @@ msgstr ""
 "l'application cible (dans ce cas, les réunions Zoom)."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:19
+#: wiki/en/Tips-Tricks-More.md:19
 msgid ""
 "You can also use [VoiceMeeter](https://www.vb-audio.com/Voicemeeter/banana."
 "htm) (Banana) for Windows or [BlackHole](https://github.com/ExistentialAudio/"
@@ -105,12 +105,12 @@ msgstr ""
 "l'application de réunion en même temps."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:22
+#: wiki/en/Tips-Tricks-More.md:22
 msgid "## Recording Jamulus on Windows with Reaper"
 msgstr "## Enregistrer Jamulus sous Windows avec Reaper"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:24
+#: wiki/en/Tips-Tricks-More.md:24
 msgid ""
 "Jamulus user [Rob Durkin](https://sourceforge.net/u/bentwrench/profile/) has "
 "written a [guide to recording the output of Jamulus](https://docs.google.com/"
@@ -123,12 +123,12 @@ msgstr ""
 "edit) (Google Doc) en utilisant ReaRoute de [Reaper](https://www.reaper.fm/)."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:27
+#: wiki/en/Tips-Tricks-More.md:27
 msgid "## Sharing song/chord sheets"
 msgstr "## Partage de paroles de chansons/accords"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:29
+#: wiki/en/Tips-Tricks-More.md:29
 msgid ""
 "Jamulus user [BTDT](https://sourceforge.net/u/btdt/profile/) has written a "
 "system called [305keepers](https://github.com/keepers305/Song-Sheet-Sharing-"
@@ -144,12 +144,12 @@ msgstr ""
 "ouèbe standard."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:31
+#: wiki/en/Tips-Tricks-More.md:31
 msgid "## Making a server status page"
 msgstr "## Faire une page de status de serveur"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:33
+#: wiki/en/Tips-Tricks-More.md:33
 msgid ""
 "With the `-m` command line argument, server statistic information can be "
 "generated to be put on a web page."
@@ -158,7 +158,7 @@ msgstr ""
 "sur le serveur peuvent être générées pour être mises sur une page web."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:35
+#: wiki/en/Tips-Tricks-More.md:35
 msgid ""
 "Here is an example php script using the server status file to display the "
 "current server status on a html page (assuming the following command line "
@@ -170,7 +170,7 @@ msgstr ""
 "dat`):"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:51
+#: wiki/en/Tips-Tricks-More.md:51
 #, no-wrap
 msgid ""
 "~~~\n"
@@ -206,12 +206,12 @@ msgstr ""
 "~~~\n"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:53
+#: wiki/en/Tips-Tricks-More.md:53
 msgid "## Saving and loading client mix states"
 msgstr "## Sauvegarde et chargement des états de mixage du client"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:55
+#: wiki/en/Tips-Tricks-More.md:55
 msgid ""
 "You can save and restore the mix you have for your band rehearsals (fader, "
 "mute, pan, solo etc.) and load these any time (even while you are playing). "
@@ -226,12 +226,12 @@ msgstr ""
 "Channels Setup\" (ou glissez/déposez-les dans la fenêtre du mixeur)."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:57
+#: wiki/en/Tips-Tricks-More.md:57
 msgid "## Converting a public server to a private one on the fly"
 msgstr "## Conversion d'un serveur public en serveur privé à la volée"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:59
+#: wiki/en/Tips-Tricks-More.md:59
 msgid ""
 "You can run a public server long enough for your band to connect, then go "
 "private by simply unchecking the 'Make my server Public' box in the server "
@@ -247,12 +247,12 @@ msgstr ""
 "DavidSavinkoff) pour cette astuce !)"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:62
+#: wiki/en/Tips-Tricks-More.md:62
 msgid "## Jamulus client Linux start script"
 msgstr "## Script de démarrage Linux pour le client Jamulus"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:64
+#: wiki/en/Tips-Tricks-More.md:64
 msgid ""
 "Here's a Linux start script for Jamulus using an old Audigy4 sound card, the "
 "large number of available audio faders for which makes it hard to get the "
@@ -263,7 +263,7 @@ msgstr ""
 "l'obtention des réglages corrects."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:66
+#: wiki/en/Tips-Tricks-More.md:66
 msgid ""
 "This script therefore includes the most important audio fader settings. The "
 "second part of the script deals with the JACK connections. I use Guitarix as "
@@ -275,7 +275,7 @@ msgstr ""
 "de JACK."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:68
+#: wiki/en/Tips-Tricks-More.md:68
 msgid ""
 "Finally I start Jamulus automatically connecting to the directory server."
 msgstr ""
@@ -283,12 +283,12 @@ msgstr ""
 "répertoire."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:70
+#: wiki/en/Tips-Tricks-More.md:70
 msgid "Here is the script:"
 msgstr "Voici le script :"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:97
+#: wiki/en/Tips-Tricks-More.md:97
 #, no-wrap
 msgid ""
 "~~~\n"
@@ -344,12 +344,12 @@ msgstr ""
 "~~~\n"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:99
+#: wiki/en/Tips-Tricks-More.md:99
 msgid "## Using ctrlmidich for MIDI controllers"
 msgstr "## Utilisation de ctrlmidich pour les contrôleurs MIDI"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:101
+#: wiki/en/Tips-Tricks-More.md:101
 msgid ""
 "The volume fader, pan control and mute and solo buttons in the client's "
 "mixer window strips can be controlled using a MIDI controller by using the "
@@ -378,12 +378,12 @@ msgstr ""
 "consécutifs. Prenons l'exemple suivant :"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:103
+#: wiki/en/Tips-Tricks-More.md:103
 msgid "`--ctrlmidich '1;f0*8;p16*8;s32*8;m48*8'`"
 msgstr "`--ctrlmidich '1;f0*8;p16*8;s32*8;m48*8'`"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:105
+#: wiki/en/Tips-Tricks-More.md:105
 msgid ""
 "Here, Jamulus listens on MIDI channel 1. Volume fader CC numbers start at 0 "
 "and there are 8 of them (so end at CC number 7). Pan controls start at CC "
@@ -395,7 +395,7 @@ msgstr ""
 "terminent au 23 ; Solo 32 à 39 et Mute 48 à 55."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:107
+#: wiki/en/Tips-Tricks-More.md:107
 msgid ""
 "Fader strips in the mixer window are controlled in ascending order from left "
 "to right. Continuing with the above example, in strip number 1 (farthest "
@@ -415,13 +415,13 @@ msgstr ""
 "serait contrôlée par 1, 17, 33 et 49, et ainsi de suite."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:109
+#: wiki/en/Tips-Tricks-More.md:109
 #, no-wrap
 msgid "*Note*: Jamulus does not provide feedback on the state of the Solo and Mute buttons, meaning that your controller must keep track and toggle LEDs (if any) to 'on' or 'off' itself.\n"
 msgstr "*Note*: Jamulus ne fournit pas de retour sur l'état des boutons Solo et Mute, ce qui signifie que votre contrôleur doit garder la trace et basculer les LED (le cas échéant) sur \"on\" ou \"off\" lui-même.\n"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:111
+#: wiki/en/Tips-Tricks-More.md:111
 msgid ""
 "Make sure you connect your MIDI device's output port to the Jamulus MIDI in "
 "port (QjackCtl (Linux), MIDI Studio (macOS) or whatever you use for managing "
@@ -435,12 +435,12 @@ msgstr ""
 "dans l'onglet MIDI de Qjackctl."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:114
+#: wiki/en/Tips-Tricks-More.md:114
 msgid "## Controlling recordings on Linux headless servers"
 msgstr "## Contrôle des enregistrements sur les serveurs headless Linux"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:116
+#: wiki/en/Tips-Tricks-More.md:116
 msgid ""
 "When using the [recording function](Server-Win-Mac#recording) with the `-R` "
 "[command line option](Command-Line-Options), if the server receives a "
@@ -454,7 +454,7 @@ msgstr ""
 "permet d'activer ou de désactiver l'enregistrement."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:118
+#: wiki/en/Tips-Tricks-More.md:118
 msgid ""
 "To send these signals using systemd, create the following two `.service` "
 "files in `/etc/systemd/system`, calling them something appropriate (e.g. "
@@ -465,18 +465,18 @@ msgstr ""
 "appropriée (par exemple `newRecording-Jamulus-server.service`)."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:120
+#: wiki/en/Tips-Tricks-More.md:120
 #, no-wrap
 msgid "**Note:** You will need to save recordings to a path _outside_ of the jamulus home directory, or remove `ProtectHome=true` from your systemd unit file (be aware that doing so is however a potential security risk).\n"
 msgstr "**Note:** Vous devrez sauvegarder les enregistrements dans un chemin _extérieur_ au répertoire personnel de jamulus, ou enlever `ProtectHome=true` de votre fichier d'unité systemd (soyez conscient que faire cela est cependant un risque potentiel de sécurité).\n"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:122
+#: wiki/en/Tips-Tricks-More.md:122
 msgid "For turning recording on or off (depending on the current state):"
 msgstr "Pour activer ou désactiver l'enregistrement (selon l'état actuel) :"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:127
+#: wiki/en/Tips-Tricks-More.md:127
 #, no-wrap
 msgid ""
 "~~~\n"
@@ -490,7 +490,7 @@ msgstr ""
 " Requisite=Jamulus-Server\n"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:132
+#: wiki/en/Tips-Tricks-More.md:132
 #, no-wrap
 msgid ""
 " [Service]\n"
@@ -504,12 +504,12 @@ msgstr ""
 "~~~\n"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:134
+#: wiki/en/Tips-Tricks-More.md:134
 msgid "For starting a new recording:"
 msgstr "Pour demarrer un nouvel enregistrement :"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:139
+#: wiki/en/Tips-Tricks-More.md:139
 #, no-wrap
 msgid ""
 "~~~\n"
@@ -523,7 +523,7 @@ msgstr ""
 " Requisite=Jamulus-Server\n"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:144
+#: wiki/en/Tips-Tricks-More.md:144
 #, no-wrap
 msgid ""
 " [Service]\n"
@@ -537,7 +537,7 @@ msgstr ""
 "~~~\n"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:146
+#: wiki/en/Tips-Tricks-More.md:146
 msgid ""
 "_Note: The Jamulus service name in the `ExecStart` line needs to be the same "
 "as the `.service` file name you created when setting systemd to control your "
@@ -549,21 +549,21 @@ msgstr ""
 "exemple, ce serait `Jamulus-Server.service`_."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:148
+#: wiki/en/Tips-Tricks-More.md:148
 msgid "Run `sudo systemctl daemon-reload` to register them for first use."
 msgstr ""
 "Lancez `sudo systemctl daemon-reload` pour les enregistrer pour la première "
 "utilisation."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:150
+#: wiki/en/Tips-Tricks-More.md:150
 msgid "Now you can run these with the `service start` command, for example:"
 msgstr ""
 "Maintenant vous pouvez les lancer avec la commande `service start`, par "
 "exemple :"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:152
+#: wiki/en/Tips-Tricks-More.md:152
 msgid ""
 "`sudo service jamulusTogglerec start` (assuming you named your unit file "
 "`jamulusTogglerec.service`)"
@@ -572,7 +572,7 @@ msgstr ""
 "votre fichier unité `jamulusTogglerec.service`)"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:154
+#: wiki/en/Tips-Tricks-More.md:154
 msgid ""
 "You can see the result of these commands if you run `service jamulus "
 "status`, or by viewing the logs."
@@ -581,12 +581,12 @@ msgstr ""
 "jamulus status`, ou en consultant les logs."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:156
+#: wiki/en/Tips-Tricks-More.md:156
 msgid "## Quality of Service"
 msgstr "## Qualité de service"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:158
+#: wiki/en/Tips-Tricks-More.md:158
 msgid ""
 "Jamulus uses DSCP/CS4 opportunistically to deal with buffer bloat, and uses "
 "a default DSCP/CS4 value of 128 (or 0x80). This is compatible with IPv4 and "
@@ -604,12 +604,12 @@ msgstr ""
 "Cependant, la plupart des gens n'auront pas besoin de le faire."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:160
+#: wiki/en/Tips-Tricks-More.md:160
 msgid "### Using Quality of Service on Windows"
 msgstr "### Utilisation de la qualité de service sous Windows"
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:162
+#: wiki/en/Tips-Tricks-More.md:162
 msgid ""
 "Jamulus’s QoS settings (including the default) have no effect on Windows "
 "because the operating system ignores them. To enable Quality of Service for "
@@ -623,7 +623,7 @@ msgstr ""
 "procédure à chaque mise à jour de Jamulus."
 
 #. type: Plain text
-#: ../wiki/en/Tips-Tricks-More.md:183
+#: wiki/en/Tips-Tricks-More.md:183
 msgid ""
 "In Search box beside Start menu Type: Local Group Policy Editor (enter)<br> "
 "In new window, (click) on the menu icon to display the Actions third "

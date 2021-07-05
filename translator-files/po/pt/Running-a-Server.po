@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-05 14:39+0200\n"
+"POT-Creation-Date: 2021-07-05 17:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,41 +16,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: ../wiki/en/Running-a-Server.md:1
+#: wiki/en/Running-a-Server.md:1
 #, no-wrap
 msgid "en"
 msgstr "pt"
 
 #. type: YAML Front Matter: layout
-#: ../wiki/en/Running-a-Server.md:1
+#: wiki/en/Running-a-Server.md:1
 #, no-wrap
 msgid "wiki"
 msgstr "wiki"
 
 #. type: YAML Front Matter: permalink
-#: ../wiki/en/Running-a-Server.md:1
+#: wiki/en/Running-a-Server.md:1
 #, no-wrap
 msgid "/wiki/Running-a-Server"
 msgstr ""
 
 #. type: YAML Front Matter: title
-#: ../wiki/en/Running-a-Server.md:1
+#: wiki/en/Running-a-Server.md:1
 #, no-wrap
 msgid "Running a Server"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:9
+#: wiki/en/Running-a-Server.md:9
 msgid "# Running a Server"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:11
+#: wiki/en/Running-a-Server.md:11
 msgid "## Do I need to run a server to use Jamulus?"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:14
+#: wiki/en/Running-a-Server.md:14
 #, no-wrap
 msgid ""
 "NO.\n"
@@ -60,31 +60,31 @@ msgstr ""
 " {: .doubletextsize .red }\n"
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:17
+#: wiki/en/Running-a-Server.md:17
 msgid ""
 "You can just choose somebody else's server from your list and get going."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:19
+#: wiki/en/Running-a-Server.md:19
 #, no-wrap
 msgid "**Don't want strangers interrupting?**  Once you and your friends are connected to a public server, press the \"solo\" buttons on the musicians each of you want to play with. Anyone you don't solo will see a \"muted\" icon on your fader. And you won't hear them.\n"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:21
+#: wiki/en/Running-a-Server.md:21
 msgid "## That sounds too easy."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:23
+#: wiki/en/Running-a-Server.md:23
 msgid ""
 "If you really want to run a server, it's **very important** that you read "
 "and understand what type of server you want to run."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:27
+#: wiki/en/Running-a-Server.md:27
 #, no-wrap
 msgid ""
 "<div class=\"fx-row fx-row-start-xs button-container\">\n"
@@ -93,23 +93,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:29
+#: wiki/en/Running-a-Server.md:29
 msgid "then come back here."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:31
+#: wiki/en/Running-a-Server.md:31
 msgid "### Speed and latency"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:33
+#: wiki/en/Running-a-Server.md:33
 #, no-wrap
 msgid "**_The capability of the server itself (and the network it's on) is NOT the main determinant of the quality of a Jamulus session!_**\n"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:35
+#: wiki/en/Running-a-Server.md:35
 msgid ""
 "Many people attribute problems to the server that are in fact problems with "
 "the _client_. Much depends on the clients' [hardware](Hardware-Setup), the "
@@ -120,7 +120,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:37
+#: wiki/en/Running-a-Server.md:37
 msgid ""
 "If you plan to be playing regularly with the same people, **you are strongly "
 "advised** to first make sure that each member of the group is set up to use "
@@ -132,7 +132,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:39
+#: wiki/en/Running-a-Server.md:39
 msgid ""
 "Once any issues with musicians have been solved in this way, you can then "
 "investigate hosting your own server either at home or on a cloud host such "
@@ -146,12 +146,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:41
+#: wiki/en/Running-a-Server.md:41
 msgid "### Bandwidth – do you have enough?"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:43
+#: wiki/en/Running-a-Server.md:43
 msgid ""
 "A typical jam might have 4 people, for which you would need 200 Kbit/s * 4 = "
 "800 Kbit/s (0.8 Mbit/s) up and down. So if you have a 10 Mbit/s down and 1 "
@@ -163,48 +163,48 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:45
+#: wiki/en/Running-a-Server.md:45
 msgid "### In general"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:47
+#: wiki/en/Running-a-Server.md:47
 msgid ""
 "Consider using a cloud host to get better ping times if you're having "
 "problems"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:49
+#: wiki/en/Running-a-Server.md:49
 msgid "Any server should have at least 1.6GHz CPU frequency and 1GB RAM"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:51
+#: wiki/en/Running-a-Server.md:51
 msgid ""
 "Running a server may require you to adjust any firewalls running on or "
 "outside of your machine or cloud host."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:53
+#: wiki/en/Running-a-Server.md:53
 msgid ""
 "Running a **private server at home** (but not a public one) will require you "
 "to [port forward](Running-a-Private-Server) on your router."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:55
+#: wiki/en/Running-a-Server.md:55
 msgid "Jamulus doesn't currently support IPv6"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:58
+#: wiki/en/Running-a-Server.md:58
 msgid "## All OK? Get set up!"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:63
+#: wiki/en/Running-a-Server.md:63
 #, no-wrap
 msgid ""
 "<div class=\"fx-row fx-row-start-xs button-container\">\n"
@@ -214,14 +214,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:65
+#: wiki/en/Running-a-Server.md:65
 msgid ""
 "If you want to run a server on a Raspberry Pi, have a look at the [guide for "
 "Raspberry Pi](/kb/2020/03/28/Server-Rpi.html) by fredsiva."
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:67
+#: wiki/en/Running-a-Server.md:67
 msgid ""
 "Server operators may also be interested in downloading [this set of useful "
 "tools](https://github.com/jamulussoftware/jamulus/tree/master/tools) from "
@@ -230,11 +230,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:69
+#: wiki/en/Running-a-Server.md:69
 msgid "## Having problems? Got issues?"
 msgstr ""
 
 #. type: Plain text
-#: ../wiki/en/Running-a-Server.md:70
+#: wiki/en/Running-a-Server.md:70
 msgid "See the [Server Troubleshooting FAQ](Server-Troubleshooting)"
 msgstr ""

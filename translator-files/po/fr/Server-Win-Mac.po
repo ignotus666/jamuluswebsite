@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-07-05 14:39+0200\n"
+"POT-Creation-Date: 2021-07-05 17:07+0200\n"
 "PO-Revision-Date: 2021-06-03 15:50+0200\n"
 "Last-Translator: daryl <darylo1@hotmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
@@ -17,31 +17,31 @@ msgstr ""
 "X-Generator: Lokalize 19.12.3\n"
 
 #. type: YAML Front Matter: lang
-#: ../wiki/en/Server-Win-Mac.md:1
+#: wiki/en/Server-Win-Mac.md:1
 #, no-wrap
 msgid "en"
 msgstr "fr"
 
 #. type: YAML Front Matter: layout
-#: ../wiki/en/Server-Win-Mac.md:1
+#: wiki/en/Server-Win-Mac.md:1
 #, no-wrap
 msgid "wiki"
 msgstr "wiki"
 
 #. type: YAML Front Matter: permalink
-#: ../wiki/en/Server-Win-Mac.md:1
+#: wiki/en/Server-Win-Mac.md:1
 #, no-wrap
 msgid "/wiki/Server-Win-Mac"
 msgstr "/wiki/Server-Win-Mac"
 
 #. type: YAML Front Matter: title
-#: ../wiki/en/Server-Win-Mac.md:1
+#: wiki/en/Server-Win-Mac.md:1
 #, no-wrap
 msgid "Server Installation - Windows and macOS"
 msgstr "Installation d'un serveur - Windows et macOS"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:9
+#: wiki/en/Server-Win-Mac.md:9
 msgid ""
 "{% include breadcrumb.html root=\"Using Jamulus\" branch1=\"Running a Server"
 "\" branch1-url=\"Running-a-Server\" %}"
@@ -50,36 +50,36 @@ msgstr ""
 "branch1-url=\"Running-a-Server\" %}"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:11
+#: wiki/en/Server-Win-Mac.md:11
 msgid "# Installation for Windows and macOS"
 msgstr "# Installation pour Windows et macOS"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:14
+#: wiki/en/Server-Win-Mac.md:14
 #, no-wrap
 msgid "**_Please ensure you have read the [server overview](Running-a-Server)_**\n"
 msgstr "**_Veuillez vous assurer que vous avez lu la page [Exécuter un serveur](Running-a-Server)_**\n"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:16
+#: wiki/en/Server-Win-Mac.md:16
 #, no-wrap
 msgid "**Windows users** - Start the server using the entry for \"Jamulus server\" in the Windows start menu.\n"
 msgstr "**Utilisateurs de Windows** - Démarrez le serveur en utilisant l'entrée \"Serveur Jamulus\" dans le menu de démarrage de Windows.\n"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:18
+#: wiki/en/Server-Win-Mac.md:18
 #, no-wrap
 msgid "**macOS users** - Double-click the \"Jamulus server\" icon in Applications (assuming you put the files from the install there as per [these instructions](Installation-for-Macintosh)).\n"
 msgstr "**Utilisateurs de macOS** - Double-cliquez sur l'icône \"Serveur Jamulus\" dans Applications (en supposant que vous y avez placé les fichiers de l'installation conformément à [ces instructions](Installation-for-Macintosh)).\n"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:20
+#: wiki/en/Server-Win-Mac.md:20
 #, no-wrap
 msgid "**Linux users** - Please refer to the [GUI server instructions](Server-Linux#running-a-server-with-the-gui).\n"
 msgstr "**Linux users** - Please refer to the [GUI server instructions](Server-Linux#running-a-server-with-the-gui).\n"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:22
+#: wiki/en/Server-Win-Mac.md:22
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/server-window-"
 "setup.png\" loading=\"lazy\" alt=\"Image of the Jamulus server setup window"
@@ -90,12 +90,12 @@ msgstr ""
 "serveur Jamulus\"></figure>"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:24
+#: wiki/en/Server-Win-Mac.md:24
 msgid "### Public server setup"
 msgstr "### Configuration du serveur public"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:26
+#: wiki/en/Server-Win-Mac.md:26
 msgid ""
 "On checking \"Make My Server Public\" you should see a confirmation message "
 "saying whether your server has registered successfully."
@@ -104,7 +104,7 @@ msgstr ""
 "confirmation indiquant si votre serveur a été enregistré avec succès."
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:28
+#: wiki/en/Server-Win-Mac.md:28
 msgid ""
 "Type in the name, city and country so that other users can easily identify "
 "you."
@@ -113,7 +113,7 @@ msgstr ""
 "puissent facilement vous identifier."
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:30
+#: wiki/en/Server-Win-Mac.md:30
 msgid ""
 "Specify a music genre. This will make your server appear in the relevant "
 "server list for clients (see more [details on Directory Servers](Directory-"
@@ -124,7 +124,7 @@ msgstr ""
 "serveurs annuaires](Directory-Servers))."
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:32
+#: wiki/en/Server-Win-Mac.md:32
 msgid ""
 "_The Chat Welcome Message appears to all users when they join the server "
 "(the chat window will open automatically for them)._"
@@ -134,12 +134,12 @@ msgstr ""
 "eux)._"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:34
+#: wiki/en/Server-Win-Mac.md:34
 msgid "### Private server setup"
 msgstr "### Configuration d'un serveur privé"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:36
+#: wiki/en/Server-Win-Mac.md:36
 msgid ""
 "If you do not check \"Make My Server Public\", you will be running a private "
 "server and need to [read these instructions](Running-a-Private-Server)."
@@ -149,7 +149,7 @@ msgstr ""
 "Private-Server)."
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:38
+#: wiki/en/Server-Win-Mac.md:38
 msgid ""
 "_If you want to **run a client on the same machine** you should **connect "
 "the client to `127.0.0.1`** for best performance. (Similarly, if you want to "
@@ -162,12 +162,12 @@ msgstr ""
 "réseau local, utilisez l'adresse IP du réseau local du serveur)._"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:41
+#: wiki/en/Server-Win-Mac.md:41
 msgid "### Other options"
 msgstr "### Autres options"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:43
+#: wiki/en/Server-Win-Mac.md:43
 msgid ""
 "<img width=\"549\" alt=\"jamulus-server\" src=\"https://user-images."
 "githubusercontent.com/4561747/114275476-79e7e580-9a1a-11eb-8e6b-09d9f956c689."
@@ -178,12 +178,12 @@ msgstr ""
 "png\">"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:45
+#: wiki/en/Server-Win-Mac.md:45
 msgid "### Recording"
 msgstr "### Enregistrement"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:47
+#: wiki/en/Server-Win-Mac.md:47
 msgid ""
 "Turn on server recording by first setting the Recording Directory in the "
 "Options tab. Recording starts once the first person connects to the server, "
@@ -204,7 +204,7 @@ msgstr ""
 "applications."
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:49
+#: wiki/en/Server-Win-Mac.md:49
 msgid ""
 "_Note: When your server is recording, clients will display a message that "
 "recording is on._"
@@ -213,7 +213,7 @@ msgstr ""
 "message indiquant que l'enregistrement est en cours._"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:51
+#: wiki/en/Server-Win-Mac.md:51
 msgid ""
 "For headless servers: you can control the recording function [using these "
 "instructions](Server-Linux#controlling-recordings)."
@@ -223,12 +223,12 @@ msgstr ""
 "Linux#enregistrement)."
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:53
+#: wiki/en/Server-Win-Mac.md:53
 msgid "### Delay panning"
 msgstr "### Retardement du panoramique"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:55
+#: wiki/en/Server-Win-Mac.md:55
 msgid ""
 "This option uses small differences in sound arrival time between the two "
 "ears. It produces a stereo effect similar to natural human hearing when "
@@ -244,12 +244,12 @@ msgstr ""
 "signal stéréo)."
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:57
+#: wiki/en/Server-Win-Mac.md:57
 msgid "### Custom Central Server Address"
 msgstr "### Adresse du serveur annuaire personnalisé"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:60
+#: wiki/en/Server-Win-Mac.md:60
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/server-window-"
 "options.png\" loading=\"lazy\" alt=\"Image of Jamulus server window options"
@@ -260,7 +260,7 @@ msgstr ""
 "\"></figure>"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:62
+#: wiki/en/Server-Win-Mac.md:62
 msgid ""
 "(Leave this field empty unless you need to list your server on a [private "
 "central server](Choosing-a-Server-Type#3-directory))"
@@ -270,13 +270,13 @@ msgstr ""
 "annuaire))."
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:65
+#: wiki/en/Server-Win-Mac.md:65
 #, no-wrap
 msgid "**Windows users** - If you want the server to start automatically on system start, enable the corresponding check box.\n"
 msgstr "**Utilisateurs de Windows** - Si vous voulez que le serveur démarre automatiquement au démarrage du système, activez la case à cocher correspondante.\n"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:67
+#: wiki/en/Server-Win-Mac.md:67
 msgid ""
 "(Leave the \"Custom Directory Server Address\" field empty unless you need "
 "to list your server on a [private directory server](Choosing-a-Server-Type#3-"
@@ -287,13 +287,13 @@ msgstr ""
 "Server-Type#3-serveur-annuaire))."
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:70
+#: wiki/en/Server-Win-Mac.md:70
 #, no-wrap
 msgid "***\n"
 msgstr "***\n"
 
 #. type: Plain text
-#: ../wiki/en/Server-Win-Mac.md:71
+#: wiki/en/Server-Win-Mac.md:71
 msgid ""
 "See also [Command Line Options](Command-Line-Options) for other parameters "
 "you can set."

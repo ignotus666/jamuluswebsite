@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-07-05 14:39+0200\n"
+"POT-Creation-Date: 2021-07-05 17:07+0200\n"
 "PO-Revision-Date: 2021-06-03 11:55+0200\n"
 "Last-Translator: daryl <darylo1@hotmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
@@ -17,31 +17,31 @@ msgstr ""
 "X-Generator: Lokalize 19.12.3\n"
 
 #. type: YAML Front Matter: lang
-#: ../wiki/en/Server-Linux.md:1
+#: wiki/en/Server-Linux.md:1
 #, no-wrap
 msgid "en"
 msgstr "fr"
 
 #. type: YAML Front Matter: layout
-#: ../wiki/en/Server-Linux.md:1
+#: wiki/en/Server-Linux.md:1
 #, no-wrap
 msgid "wiki"
 msgstr "wiki"
 
 #. type: YAML Front Matter: permalink
-#: ../wiki/en/Server-Linux.md:1
+#: wiki/en/Server-Linux.md:1
 #, no-wrap
 msgid "/wiki/Server-Linux"
 msgstr "/wiki/Server-Linux"
 
 #. type: YAML Front Matter: title
-#: ../wiki/en/Server-Linux.md:1
+#: wiki/en/Server-Linux.md:1
 #, no-wrap
 msgid "Server Installation - Linux"
 msgstr "Installation d'un serveur - Linux"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:9
+#: wiki/en/Server-Linux.md:9
 msgid ""
 "{% include breadcrumb.html root=\"Using Jamulus\" branch1=\"Running a Server"
 "\" branch1-url=\"Running-a-Server\" %}"
@@ -50,25 +50,25 @@ msgstr ""
 "branch1-url=\"Running-a-Server\" %}"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:11
+#: wiki/en/Server-Linux.md:11
 msgid "# Server Installation - Linux"
 msgstr "# Installation d'un serveur - Linux"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:13
+#: wiki/en/Server-Linux.md:13
 #, no-wrap
 msgid "**_Please ensure you have read the [server overview](Running-a-Server)_**\n"
 msgstr "**_Veuillez vous assurer que vous avez lu la page [Exécuter un serveur](Running-a-Server)_**\n"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:16
+#: wiki/en/Server-Linux.md:16
 msgid "## Running a server with a GUI on a desktop machine"
 msgstr ""
 "## Exécution d'un serveur avec une interface graphique sur une machine de "
 "bureau"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:18
+#: wiki/en/Server-Linux.md:18
 msgid ""
 "If you have installed the Jamulus client, you can run it in your chosen "
 "[server mode](Choosing-a-Server-Type) by running Jamulus with the `-s` "
@@ -79,20 +79,20 @@ msgstr ""
 "avec l'option `-s` comme suit :"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:20
+#: wiki/en/Server-Linux.md:20
 msgid "Open a terminal window (`CTRL+ALT+t` on Ubuntu and related distros)."
 msgstr ""
 "Ouvrez une fenêtre de terminal (`CTRL+ALT+t` sur Ubuntu et les distros "
 "apparentées)."
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:21
+#: wiki/en/Server-Linux.md:21
 msgid "Assuming Jamulus is in `/usr/local/bin`, type `Jamulus -s`"
 msgstr ""
 "En supposant que Jamulus se trouve dans `/usr/local/bin`, tapez `Jamulus -s`."
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:23
+#: wiki/en/Server-Linux.md:23
 msgid ""
 "Hit return and you should see the server control window. You can stop the "
 "server by closing the server window, or by using `CTRL+C` in the terminal."
@@ -102,18 +102,18 @@ msgstr ""
 "utilisant `CTRL+C` dans le terminal."
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:25
+#: wiki/en/Server-Linux.md:25
 #, no-wrap
 msgid "**To configure the server**, please refer to [the Windows & macOS instructions](Server-Win-Mac), and [Command Line Options](Command-Line-Options) for other parameters you can set.\n"
 msgstr "**Pour configurer le serveur**, veuillez vous référer aux [instructions pour Windows et macOS] (Server-Win-Mac), et aux [options de la ligne de commande] (Command-Line-Options) pour les autres paramètres que vous pouvez définir.\n"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:27
+#: wiki/en/Server-Linux.md:27
 msgid "## Running a \"headless\" server"
 msgstr "## Exécution d'un serveur \"headless\""
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:29
+#: wiki/en/Server-Linux.md:29
 msgid ""
 "The following is for running Jamulus as a \"pure\" server on **hardware "
 "without audio** (e.g. on a 3rd party/cloud host) and assumes Ubuntu/Debian "
@@ -126,7 +126,7 @@ msgstr ""
 "instructions pour [Raspberry Pi] (Server-Rpi)."
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:31
+#: wiki/en/Server-Linux.md:31
 msgid ""
 "Download the [latest headless .deb file]({{ site.download_root_link }}"
 "{{ site.download_file_names.deb-headless }})"
@@ -135,7 +135,7 @@ msgstr ""
 "{ site.download_file_names.deb-headless }})"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:32
+#: wiki/en/Server-Linux.md:32
 msgid ""
 "Update apt to make sure you have a current list of standard packages: `sudo "
 "apt update`"
@@ -144,7 +144,7 @@ msgstr ""
 "paquets standard : `sudo apt update`"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:33
+#: wiki/en/Server-Linux.md:33
 msgid ""
 "Install the Jamulus package: `sudo apt install ./{{ site.download_file_names."
 "deb-headless }}`"
@@ -153,7 +153,7 @@ msgstr ""
 "download_file_names.deb-headless }}`"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:34
+#: wiki/en/Server-Linux.md:34
 msgid ""
 "Enable the headless server process via systemd: `sudo systemctl enable "
 "jamulus-headless`"
@@ -162,7 +162,7 @@ msgstr ""
 "enable jamulus-headless`."
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:35
+#: wiki/en/Server-Linux.md:35
 msgid ""
 "Add your desired [command line options](Command-Line-Options) to the "
 "`ExecStart` line in the systemd service file in `/lib/systemd/system/jamulus-"
@@ -173,7 +173,7 @@ msgstr ""
 "jamulus-headless.service` (Par défaut, vous allez exécuter un serveur privé)."
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:36
+#: wiki/en/Server-Linux.md:36
 msgid ""
 "Reload the systemd files `sudo systemctl daemon-reload` and restart the "
 "headless server: `sudo systemctl restart jamulus-headless`"
@@ -182,7 +182,7 @@ msgstr ""
 "le serveur headless : `sudo systemctl restart jamulus-headless`"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:37
+#: wiki/en/Server-Linux.md:37
 msgid ""
 "Check all is well with `service jamulus-headless status` (hit `q` to get "
 "back to the command prompt)."
@@ -191,12 +191,12 @@ msgstr ""
 "pour revenir à l'invite de commande)."
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:39
+#: wiki/en/Server-Linux.md:39
 msgid "## Notes"
 msgstr "## Notes"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:41
+#: wiki/en/Server-Linux.md:41
 msgid ""
 "You can control Jamulus with the `service` command. For example, to stop the "
 "server cleanly:"
@@ -205,17 +205,17 @@ msgstr ""
 "arrêter le serveur proprement :"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:43
+#: wiki/en/Server-Linux.md:43
 msgid "`sudo service jamulus-headless stop`"
 msgstr "`sudo service jamulus-headless stop`"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:45
+#: wiki/en/Server-Linux.md:45
 msgid "### Viewing The Logs"
 msgstr "### Visualisation des journaux"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:47
+#: wiki/en/Server-Linux.md:47
 msgid ""
 "Jamulus will log to the system file if you left the `StandardOutput=journal` "
 "setting in the unit file. Logging to the system log is recommended, as the "
@@ -229,7 +229,7 @@ msgstr ""
 "remplir votre espace disque."
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:49
+#: wiki/en/Server-Linux.md:49
 msgid ""
 "To view the log, use `journalctl` (to exit press Ctrl-C). For example, to "
 "read the system log file, filtered for the Jamulus service:"
@@ -239,61 +239,61 @@ msgstr ""
 "le service Jamulus :"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:51
+#: wiki/en/Server-Linux.md:51
 msgid "`journalctl -u jamulus-headless`"
 msgstr "`journalctl -u jamulus-headless`"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:53
+#: wiki/en/Server-Linux.md:53
 msgid "For today’s entries:"
 msgstr "Pour les entrées d'aujourd'hui :"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:55
+#: wiki/en/Server-Linux.md:55
 msgid "`journalctl -u jamulus-headless --since today`"
 msgstr "`journalctl -u jamulus-headless --since today`"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:57
+#: wiki/en/Server-Linux.md:57
 msgid "For the last hour:"
 msgstr "Pour la dernière heure :"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:59
+#: wiki/en/Server-Linux.md:59
 msgid "`journalctl -u jamulus-headless --since \"1 hour ago\"`"
 msgstr "`journalctl -u jamulus-headless --since \"1 hour ago\"`"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:61
+#: wiki/en/Server-Linux.md:61
 msgid "Filter the log to see connection messages for your Jamulus server:"
 msgstr ""
 "Filtrez le journal pour voir les messages de connexion de votre serveur "
 "Jamulus :"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:63
+#: wiki/en/Server-Linux.md:63
 msgid "`journalctl -u jamulus-headless | grep connected`"
 msgstr "`journalctl -u jamulus-headless | grep connected`"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:65
+#: wiki/en/Server-Linux.md:65
 msgid "Follow (show on screen) Jamulus log messages as they occur:"
 msgstr ""
 "Suivez (affichez à l'écran) les messages du journal de Jamulus au fur et à "
 "mesure qu'ils se produisent :"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:67
+#: wiki/en/Server-Linux.md:67
 msgid "`journalctl -f -u jamulus-headless`"
 msgstr "`journalctl -f -u jamulus-headless`"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:69
+#: wiki/en/Server-Linux.md:69
 msgid "### Upgrading"
 msgstr "### Mise à niveau"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:71
+#: wiki/en/Server-Linux.md:71
 msgid ""
 "To upgrade your server to a newer version, simply download a new .deb and re-"
 "install as step 3."
@@ -303,12 +303,12 @@ msgstr ""
 "l'étape 3."
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:73
+#: wiki/en/Server-Linux.md:73
 msgid "### Recording"
 msgstr "### Enregistrement"
 
 #. type: Plain text
-#: ../wiki/en/Server-Linux.md:74
+#: wiki/en/Server-Linux.md:74
 msgid ""
 "See [this information](/wiki/Tips-Tricks-More#controlling-recordings-on-"
 "linux-headless-servers) on controlling recordings on headless servers."

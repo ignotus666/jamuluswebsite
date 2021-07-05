@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-07-05 14:39+0200\n"
+"POT-Creation-Date: 2021-07-05 17:07+0200\n"
 "PO-Revision-Date: 2021-06-02 08:39+0200\n"
 "Last-Translator: daryl <darylo1@hotmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
@@ -17,30 +17,30 @@ msgstr ""
 "X-Generator: Lokalize 19.12.3\n"
 
 #. type: YAML Front Matter: lang
-#: ../wiki/en/index.md:1
+#: wiki/en/index.md:1
 #, no-wrap
 msgid "en"
 msgstr "es"
 
 #. type: YAML Front Matter: layout
-#: ../wiki/en/index.md:1
+#: wiki/en/index.md:1
 #, no-wrap
 msgid "wikioverview"
 msgstr "wikioverview"
 
 #. type: YAML Front Matter: permalink
-#: ../wiki/en/index.md:1
+#: wiki/en/index.md:1
 #, no-wrap
 msgid "/wiki/"
 msgstr "/wiki/"
 
 #. type: YAML Front Matter: title
-#: ../wiki/en/index.md:1
+#: wiki/en/index.md:1
 #, no-wrap
 msgid "Overview"
 msgstr "Descripción"
 
 #. type: Plain text
-#: ../wiki/en/index.md:7
+#: wiki/en/index.md:7
 msgid "# Page overview"
 msgstr "# Descripción de la página"
