@@ -5,4 +5,4 @@ layout: redirect
 permalink: /wiki/Central-Servers
 redirect: /wiki/Directory-Servers
 ---
-THIS IS A TEST 22
+ESTO ES UNA PRUEBA 24

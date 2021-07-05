@@ -77,7 +77,7 @@
 |**es**| **Linux-Install-Script.po**|0 translated messages, 5 untranslated messages.
 |**es**| **Sound-Devices.po**|0 translated messages, 5 untranslated messages.
 |**es**| **Server-Linux.po**|41 translated messages.
-|**es**| **Central-Servers.po**|5 translated messages, 1 fuzzy translation.
+|**es**| **Central-Servers.po**|6 translated messages.
 |**es**| **Client-Troubleshooting.po**|48 translated messages.
 |**es**| **Running-a-Private-Server.po**|29 translated messages.
 |**es**| **Network-Requirements.po**|19 translated messages.
