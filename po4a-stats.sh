@@ -12,13 +12,13 @@ produce_stats () {
 		basename="$(basename -s .md "$file")"
 
 		# Stats printed to translator-files/statistics.txt
-		echo -n "|**"$lang"**| **"$basename".po**|" >> translator-files/statistics.md
+		echo -n "|"$lang"| "$basename".po|" >> translator-files/statistics.md
 		msgfmt --statistics "$PO_DIR/$lang/$basename".po &>> translator-files/statistics.md
 		#echo -n '|' >> translator-files/statistics.md
 		#echo '' >> translator-files/statistics.md
 
 	done <   <(find -L "$SRC_DIR" -name "*.md"  -print0)
-	echo "|## language| ## file | ## status |" >> translator-files/statistics.md
+	echo "|**language**| **file** | **status** |" >> translator-files/statistics.md
 }
 
 # Run produce_stats on each language folder
