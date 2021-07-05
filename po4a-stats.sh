@@ -3,7 +3,7 @@
 
 # Remove stats file before creating new one
 rm -f "translator-files/statistics.md"
-echo "|"$lang" | file | status |" >> translator-files/statistics.md
+echo "|language| file | status |" >> translator-files/statistics.md
 echo "|--------|------|--------|" >> translator-files/statistics.md
 
 produce_stats () {
@@ -12,7 +12,7 @@ produce_stats () {
 		basename="$(basename -s .md "$file")"
 
 		# Stats printed to translator-files/statistics.txt
-		echo "|**"$lang"/"$basename".po:**|" >> translator-files/statistics.md
+		echo "|**"$lang"**| "$basename".po:**|" >> translator-files/statistics.md
 		msgfmt --statistics "$PO_DIR/$lang/$basename".po &>> translator-files/statistics.md
 		echo -n '|' >> translator-files/statistics.md
 		echo '' >> translator-files/statistics.md
@@ -24,8 +24,8 @@ produce_stats () {
 # Run produce_stats on each language folder
 while IFS= read -r -d '' dir ; do
 	lang=$(basename -s .md "$dir")
-	echo "## "$lang":" >> translator-files/statistics.md
-	echo '' >> translator-files/statistics.md
+	#echo "## "$lang":" >> translator-files/statistics.md
+	#echo '' >> translator-files/statistics.md
 	produce_stats "$lang"
 done <   <(find "$PO_DIR" -mindepth 1 -maxdepth 1 -type d -print0)
 
