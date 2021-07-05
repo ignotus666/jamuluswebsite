@@ -21,8 +21,8 @@ produce_stats () {
 # Run produce_stats on each language folder
 while IFS= read -r -d '' dir ; do
 	lang=$(basename -s .md "$dir")
-	echo "##"$lang":" >> translator-files/statistics.md
-	echo ''
+	echo "## "$lang":" >> translator-files/statistics.md
+	echo '' >> translator-files/statistics.md
 	produce_stats "$lang"
 done <   <(find "$PO_DIR" -mindepth 1 -maxdepth 1 -type d -print0)
 
