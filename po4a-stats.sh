@@ -13,7 +13,7 @@ produce_stats () {
 
 		# Stats printed to translator-files/statistics.txt
 		echo "|**"$lang"**| **"$basename".po:**|" >> translator-files/statistics.md
-		msgfmt --statistics "$PO_DIR/$lang/$basename".po &>> translator-files/statistics.md
+		echo -n "$(msgfmt --statistics "$PO_DIR/$lang/$basename".po)" &>> translator-files/statistics.md
 		#echo -n '|' >> translator-files/statistics.md
 		echo '' >> translator-files/statistics.md
 
