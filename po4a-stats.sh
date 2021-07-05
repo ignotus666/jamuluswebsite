@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Directory for stats file
-STAT_DIR="../translator-files"
+STAT_DIR="./translator-files"
 
 # Remove stats file before creating new one
-rm -f "../translator-files/statistics.md"
+rm -f "$STAT_DIR"/statistics.md
 
 # Create table header
 echo "|Language| File | Status |" >> "$STAT_DIR"/statistics.md
