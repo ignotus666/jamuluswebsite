@@ -18,7 +18,7 @@ produce_stats () {
 		#echo '' >> translator-files/statistics.md
 
 	done <   <(find -L "$SRC_DIR" -name "*.md"  -print0)
-	echo "|**language**| **file** | **status** |" >> translator-files/statistics.md
+	echo "|-----|-----|-----|" >> translator-files/statistics.md
 }
 
 # Run produce_stats on each language folder
