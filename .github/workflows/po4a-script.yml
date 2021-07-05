@@ -48,10 +48,10 @@ jobs:
               - 'translator-files/po/*/*.po'
       - name: Update templates
         if: steps.filter.outputs.templates == 'true'
-        run: .po4a//po4a-update-templates.sh
+        run: .po4a/po4a-update-templates.sh
       - name: Create targets
         if: steps.filter.outputs.targets == 'true'
-        run: ./po4a/po4a-create-all-targets.sh
+        run: .po4a/po4a-create-all-targets.sh
 
       # Commit and push results of scripts:
       - name: Commit files
