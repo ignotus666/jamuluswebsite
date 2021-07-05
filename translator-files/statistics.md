@@ -1,4 +1,5 @@
-##fr:
+## fr:
+
 **fr/Server-Win-Mac.po:**
 34 translated messages.
 
@@ -93,7 +94,8 @@
 11 translated messages.
 
 
-##it:
+## it:
+
 **it/Server-Win-Mac.po:**
 3 translated messages, 31 untranslated messages.
 
@@ -188,7 +190,8 @@
 2 translated messages, 9 untranslated messages.
 
 
-##de:
+## de:
+
 **de/Server-Win-Mac.po:**
 3 translated messages, 31 untranslated messages.
 
@@ -283,7 +286,8 @@
 2 translated messages, 9 untranslated messages.
 
 
-##pt:
+## pt:
+
 **pt/Server-Win-Mac.po:**
 4 translated messages, 30 untranslated messages.
 
@@ -378,7 +382,8 @@
 2 translated messages, 9 untranslated messages.
 
 
-##es:
+## es:
+
 **es/Server-Win-Mac.po:**
 34 translated messages.
 
