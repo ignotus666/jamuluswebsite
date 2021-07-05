@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# Directory for stats file
-STAT_DIR="./translator-files"
+# Stats file variable
+STATS_FILE="./translator-files/statistics.md"
 
 # Remove stats file before creating new one
-rm -f "$STAT_DIR"/statistics.md
+rm -f "$STATS_FILE"
 
 # Create table header
-echo "|Language| File | Status |" >> "$STAT_DIR"/statistics.md
-echo "|--------|------|--------|" >> "$STAT_DIR"/statistics.md
+echo "|Language| File | Status |" >> "$STATS_FILE"
+echo "|--------|------|--------|" >> "$STATS_FILE"
 
 produce_stats () {
 # Determine file names
@@ -16,13 +16,13 @@ produce_stats () {
 		basename="$(basename -s .md "$file")"
 
 		# Stats printed to translator-files/statistics.md
-		echo -n "|**"$lang"**| **"$basename".po**|" >> "$STAT_DIR"/statistics.md
-		msgfmt --statistics "$PO_DIR/$lang/$basename".po &>> "$STAT_DIR"/statistics.md
+		echo -n "|**"$lang"**| **"$basename".po**|" >> "$STATS_FILE"
+		msgfmt --statistics "$PO_DIR/$lang/$basename".po &>> "$STATS_FILE"
 
 	done <   <(find -L "$SRC_DIR" -name "*.md"  -print0)
 
 	#separator between languages
-	echo "|**-----**|**--------------------**|**--------------------**|" >> "$STAT_DIR"/statistics.md
+	echo "|**-----**|**--------------------**|**--------------------**|" >> "$STATS_FILE"
 }
 
 # Run produce_stats on each language folder
@@ -31,7 +31,7 @@ while IFS= read -r -d '' dir ; do
 	produce_stats "$lang"
 done <   <(find "$PO_DIR" -mindepth 1 -maxdepth 1 -type d -print0)
 
-# Remove unwanted messages.mo file created
+# Remove unwanted messages.mo file created by msgfmt
 rm -f *.mo
 
 echo Statistics file created
