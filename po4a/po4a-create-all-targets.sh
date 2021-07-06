@@ -7,6 +7,7 @@
 # PUB_DIR directory to publish the localised files in
 # THRESHOLD translation % below which translated .md files are not generated
 
+# Get absolute path and CD to parent directory of script. Will work locally without it, but not via GH actions.
 parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 
 cd "$parent_path"
