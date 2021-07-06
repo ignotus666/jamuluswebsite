@@ -7,6 +7,10 @@
 # PUB_DIR directory to publish the localised files in
 # THRESHOLD translation % below which translated .md files are not generated
 
+parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+
+cd "$parent_path"
+
 ####################################
 # INITIALISE VARIABLES
 ####################################
@@ -15,16 +19,16 @@
 THRESHOLD="80"
 
 # Folder where source English .md files are
-SRC_DIR="./wiki/en"
+SRC_DIR="../wiki/en"
 
 # Directory where the po file folders are
 if [ -z "$PO_DIR" ] ; then
-	PO_DIR="./translator-files/po"
+	PO_DIR="../translator-files/po"
 fi
 
 # Directory where the translated file folders will be
 if [ -z "$PUB_DIR" ] ; then
-	PUB_DIR="./wiki"
+	PUB_DIR="../wiki"
 fi
 
 

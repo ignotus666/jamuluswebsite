@@ -29,7 +29,7 @@ jobs:
             sudo cp --force --recursive ~/po4a/* /
           else
             sudo apt install -yq gettext libsgmls-perl libyaml-tiny-perl opensp
-            sudo dpkg -i po4a_0.64-alpha.deb
+            sudo dpkg -i po4a/po4a_0.64-alpha.deb
             mkdir -p ~/po4a
             for dep in po4a libcroco3 libosp5 sgml-base gettext libsgmls-perl libyaml-tiny-perl opensp; do
                 dpkg -L $dep | while IFS= read -r f; do if test -f $f; then echo $f; fi; done | xargs cp --parents --target-directory ~/po4a/
@@ -48,10 +48,10 @@ jobs:
               - 'translator-files/po/*/*.po'
       - name: Update templates
         if: steps.filter.outputs.templates == 'true'
-        run: ./po4a-update-templates.sh
+        run: ./po4a/po4a-update-templates.sh
       - name: Create targets
         if: steps.filter.outputs.targets == 'true'
-        run: ./po4a-create-all-targets.sh
+        run: ./po4a/po4a-create-all-targets.sh
 
       # Commit and push results of scripts:
       - name: Commit files
