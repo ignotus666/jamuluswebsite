@@ -5,9 +5,9 @@
 # SRC_DIR folder for original English .md files
 # PO_DIR directory where .po files are stored
 
-parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+#parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 
-cd "$parent_path"
+#cd "$parent_path"
 
 
 ####################################
