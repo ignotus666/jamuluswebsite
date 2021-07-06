@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-06 12:27+0200\n"
+"POT-Creation-Date: 2021-07-06 11:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../wiki/en/Choosing-a-Server-Type.md:8
-msgid "TEST 3"
+msgid "TEST 4"
 msgstr ""
 
 #. type: Plain text
