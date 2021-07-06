@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-06 07:07+0000\n"
+"POT-Creation-Date: 2021-07-06 10:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Daryl Hanlon <darylo1@hotmail.com>\n"
 "Language-Team: Jamulus Translators <jamulus.io>\n"
@@ -16,36 +16,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: wiki/en/FAQ.md:1
+#: ../wiki/en/FAQ.md:1
 #, no-wrap
 msgid "en"
 msgstr "es"
 
 #. type: YAML Front Matter: layout
-#: wiki/en/FAQ.md:1
+#: ../wiki/en/FAQ.md:1
 #, no-wrap
 msgid "wiki"
 msgstr "wiki"
 
 #. type: YAML Front Matter: permalink
-#: wiki/en/FAQ.md:1
+#: ../wiki/en/FAQ.md:1
 #, no-wrap
 msgid "/wiki/FAQ"
 msgstr "/wiki/FAQ"
 
 #. type: YAML Front Matter: title
-#: wiki/en/FAQ.md:1
+#: ../wiki/en/FAQ.md:1
 #, no-wrap
 msgid "FAQ"
 msgstr "FAQ"
 
 #. type: Plain text
-#: wiki/en/FAQ.md:9
+#: ../wiki/en/FAQ.md:9
 msgid "# Jamulus FAQ"
 msgstr "Jamulus FAQ"
 
 #. type: Plain text
-#: wiki/en/FAQ.md:11
+#: ../wiki/en/FAQ.md:11
 msgid ""
 "This is an overview of common questions. For common problems and their "
 "solutions, see the [Troubleshooting](/wiki/Client-Troubleshooting) page."
@@ -55,7 +55,7 @@ msgstr ""
 "Troubleshooting)."
 
 #. type: Plain text
-#: wiki/en/FAQ.md:14
+#: ../wiki/en/FAQ.md:14
 msgid ""
 "### Is there a metronome, synchronization, or some other way of keeping in "
 "time?"
@@ -64,7 +64,7 @@ msgstr ""
 "tiempo?"
 
 #. type: Plain text
-#: wiki/en/FAQ.md:16
+#: ../wiki/en/FAQ.md:16
 msgid ""
 "No. Musicians on a Jamulus server simply play in real time time together as "
 "they would in person. If you want to have a time signal, then there are "
@@ -79,12 +79,12 @@ msgstr ""
 "retardo total de más de unos 30-50 ms."
 
 #. type: Plain text
-#: wiki/en/FAQ.md:18
+#: ../wiki/en/FAQ.md:18
 msgid "### How do I know if I can join a server? Are there rules?"
 msgstr "### ¿Cómo sé si puedo unirme a un servidor? ¿Hay normas?"
 
 #. type: Plain text
-#: wiki/en/FAQ.md:20
+#: ../wiki/en/FAQ.md:20
 msgid ""
 "In general, if somebody sets up a public server, then [by definition](/wiki/"
 "Choosing-a-Server-Type) they accept that anyone can play on it. Jamulus has "
@@ -99,7 +99,7 @@ msgstr ""
 "en el mensaje de bienvenida que verá en la ventana del chat."
 
 #. type: Plain text
-#: wiki/en/FAQ.md:22
+#: ../wiki/en/FAQ.md:22
 msgid ""
 "You can also set up a private server on Jamulus and give others your address "
 "to connect to that. Have a look at [this page for more information](/wiki/"
@@ -110,12 +110,12 @@ msgstr ""
 "información](/wiki/Running-a-Server)."
 
 #. type: Plain text
-#: wiki/en/FAQ.md:24
+#: ../wiki/en/FAQ.md:24
 msgid "### Why shouldn’t I use wireless equipment?"
 msgstr "### ¿Por qué no debería utilizar dispositivos inalámbricos?"
 
 #. type: Plain text
-#: wiki/en/FAQ.md:26
+#: ../wiki/en/FAQ.md:26
 msgid ""
 "Whether or not you will be able to play in time with other musicians depends "
 "mainly on how much latency (delay) you have in your sound signal. An overall "
@@ -134,7 +134,7 @@ msgstr ""
 "la sincronización no sea un factor importante para la música."
 
 #. type: Plain text
-#: wiki/en/FAQ.md:28
+#: ../wiki/en/FAQ.md:28
 msgid ""
 "So it makes sense to minimise any sources of delay or other problems with "
 "the signal. Even fast wi-fi is usually too variable to use for long periods "
@@ -147,12 +147,12 @@ msgstr ""
 "micrófonos Bluetooth suelen introducir latencias de hasta 50 ms o más."
 
 #. type: Plain text
-#: wiki/en/FAQ.md:30
+#: ../wiki/en/FAQ.md:30
 msgid "### Why should I not listen to my own signal?"
 msgstr "### ¿Por qué no debería escuchar mi propia señal?"
 
 #. type: Plain text
-#: wiki/en/FAQ.md:32
+#: ../wiki/en/FAQ.md:32
 msgid ""
 "For the same reason as you need to minimise delay in your signal in order to "
 "play in time, you need to make sure you are playing to your own sound that "
@@ -169,7 +169,7 @@ msgstr ""
 "difícil-tocar-todos-juntos-manteniendo-el-tiempo)."
 
 #. type: Plain text
-#: wiki/en/FAQ.md:34
+#: ../wiki/en/FAQ.md:34
 msgid ""
 "Of course, if you are playing an acoustic instrument, or are a singer, it "
 "will be hard to exclude your “local” sound. But you should at least try to "
@@ -184,12 +184,12 @@ msgstr ""
 "servidor."
 
 #. type: Plain text
-#: wiki/en/FAQ.md:36
+#: ../wiki/en/FAQ.md:36
 msgid "### Do I need a fast Internet connection?"
 msgstr "### ¿Necesito una conexión rápida de Internet?"
 
 #. type: Plain text
-#: wiki/en/FAQ.md:38
+#: ../wiki/en/FAQ.md:38
 msgid ""
 "For most people on standard broadband (e.g. 10 Mbit/s down and 1 Mbit/s up) "
 "you will have no problems. For those running servers at home, depending on "
@@ -204,12 +204,12 @@ msgstr ""
 "requisitos de red aquí](/wiki/Network-Requirements)."
 
 #. type: Plain text
-#: wiki/en/FAQ.md:40
+#: ../wiki/en/FAQ.md:40
 msgid "### Do I need to run a server?"
 msgstr "### ¿Necesito ejecutar un servidor?"
 
 #. type: Plain text
-#: wiki/en/FAQ.md:42
+#: ../wiki/en/FAQ.md:42
 msgid ""
 "No. If you just intend to connect to other people’s servers, then all you "
 "need is a client. [Read this if you think you need to run your own server](/"
@@ -220,12 +220,12 @@ msgstr ""
 "propio servidor](/wiki/Running-a-Server)."
 
 #. type: Plain text
-#: wiki/en/FAQ.md:44
+#: ../wiki/en/FAQ.md:44
 msgid "### How does Jamulus work (in general)?"
 msgstr "¿Cómo funciona Jamulus (en general)?"
 
 #. type: Plain text
-#: wiki/en/FAQ.md:46
+#: ../wiki/en/FAQ.md:46
 msgid ""
 "<img src=\"{{site.url}}/assets/img/en-screenshots/diagram-overview.png\" "
 "loading=\"lazy\" alt=\"Diagram showing how Jamulus works\">"
@@ -234,7 +234,7 @@ msgstr ""
 "loading=\"lazy\" alt=\"Diagrama mostrando cómo funciona Jamulus\">"
 
 #. type: Plain text
-#: wiki/en/FAQ.md:49
+#: ../wiki/en/FAQ.md:49
 msgid ""
 "Jamulus works on the client-server principle. Everybody’s audio is sent to a "
 "server, mixed and processed there. Afterwards, the audio is sent back to "
@@ -247,12 +247,12 @@ msgstr ""
 "servidor de directorio, su información será emitida a todos los clientes."
 
 #. type: Plain text
-#: wiki/en/FAQ.md:51
+#: ../wiki/en/FAQ.md:51
 msgid "### Why doesn't Jamulus provide video support?"
 msgstr "### ¿Por qué Jamulus no ofrece soporte para vídeo?"
 
 #. type: Plain text
-#: wiki/en/FAQ.md:52
+#: ../wiki/en/FAQ.md:52
 msgid ""
 "Adding video support adds a lot of complexity. You can use other software "
 "like Jitsi or Zoom if you want to see others when playing (or have an "

@@ -18,7 +18,7 @@
 |**fr**| **Privacy-Statement.po**|20 translated messages.
 |**fr**| **Command-Line-Options.po**|19 translated messages.
 |**fr**| **Tips-Tricks-More.po**|55 translated messages.
-|**fr**| **Choosing-a-Server-Type.po**|29 translated messages.
+|**fr**| **Choosing-a-Server-Type.po**|29 translated messages, 1 untranslated message.
 |**fr**| **Installation-for-Linux.po**|29 translated messages.
 |**fr**| **Network-Requirements.po**|19 translated messages.
 |**fr**| **Directory-Servers.po**|11 translated messages.
@@ -41,7 +41,7 @@
 |**it**| **Privacy-Statement.po**|2 translated messages, 18 untranslated messages.
 |**it**| **Command-Line-Options.po**|3 translated messages, 16 untranslated messages.
 |**it**| **Tips-Tricks-More.po**|2 translated messages, 53 untranslated messages.
-|**it**| **Choosing-a-Server-Type.po**|2 translated messages, 27 untranslated messages.
+|**it**| **Choosing-a-Server-Type.po**|2 translated messages, 28 untranslated messages.
 |**it**| **Installation-for-Linux.po**|4 translated messages, 25 untranslated messages.
 |**it**| **Network-Requirements.po**|2 translated messages, 17 untranslated messages.
 |**it**| **Directory-Servers.po**|2 translated messages, 9 untranslated messages.
@@ -64,7 +64,7 @@
 |**de**| **Privacy-Statement.po**|2 translated messages, 18 untranslated messages.
 |**de**| **Command-Line-Options.po**|3 translated messages, 16 untranslated messages.
 |**de**| **Tips-Tricks-More.po**|2 translated messages, 53 untranslated messages.
-|**de**| **Choosing-a-Server-Type.po**|2 translated messages, 27 untranslated messages.
+|**de**| **Choosing-a-Server-Type.po**|2 translated messages, 28 untranslated messages.
 |**de**| **Installation-for-Linux.po**|29 translated messages.
 |**de**| **Network-Requirements.po**|2 translated messages, 17 untranslated messages.
 |**de**| **Directory-Servers.po**|2 translated messages, 9 untranslated messages.
@@ -87,7 +87,7 @@
 |**pt**| **Privacy-Statement.po**|2 translated messages, 18 untranslated messages.
 |**pt**| **Command-Line-Options.po**|3 translated messages, 16 untranslated messages.
 |**pt**| **Tips-Tricks-More.po**|2 translated messages, 53 untranslated messages.
-|**pt**| **Choosing-a-Server-Type.po**|2 translated messages, 27 untranslated messages.
+|**pt**| **Choosing-a-Server-Type.po**|2 translated messages, 28 untranslated messages.
 |**pt**| **Installation-for-Linux.po**|29 translated messages.
 |**pt**| **Network-Requirements.po**|2 translated messages, 17 untranslated messages.
 |**pt**| **Directory-Servers.po**|2 translated messages, 9 untranslated messages.
@@ -110,7 +110,7 @@
 |**es**| **Privacy-Statement.po**|20 translated messages.
 |**es**| **Command-Line-Options.po**|19 translated messages.
 |**es**| **Tips-Tricks-More.po**|55 translated messages.
-|**es**| **Choosing-a-Server-Type.po**|29 translated messages.
+|**es**| **Choosing-a-Server-Type.po**|29 translated messages, 1 untranslated message.
 |**es**| **Installation-for-Linux.po**|29 translated messages.
 |**es**| **Network-Requirements.po**|19 translated messages.
 |**es**| **Directory-Servers.po**|11 translated messages.

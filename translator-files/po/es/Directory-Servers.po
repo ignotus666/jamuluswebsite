@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-06 07:07+0000\n"
+"POT-Creation-Date: 2021-07-06 10:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Daryl Hanlon <darylo1@hotmail.com>\n"
 "Language-Team: Jamulus Translators <jamulus.io>\n"
@@ -16,31 +16,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: YAML Front Matter: lang
-#: wiki/en/Directory-Servers.md:1
+#: ../wiki/en/Directory-Servers.md:1
 #, no-wrap
 msgid "en"
 msgstr "es"
 
 #. type: YAML Front Matter: layout
-#: wiki/en/Directory-Servers.md:1
+#: ../wiki/en/Directory-Servers.md:1
 #, no-wrap
 msgid "wiki"
 msgstr "wiki"
 
 #. type: YAML Front Matter: permalink
-#: wiki/en/Directory-Servers.md:1
+#: ../wiki/en/Directory-Servers.md:1
 #, no-wrap
 msgid "/wiki/Directory-Servers"
 msgstr "/wiki/Directory-Servers"
 
 #. type: YAML Front Matter: title
-#: wiki/en/Directory-Servers.md:1
+#: ../wiki/en/Directory-Servers.md:1
 #, no-wrap
 msgid "Directory Servers"
 msgstr "Servidores de Directorio"
 
 #. type: Plain text
-#: wiki/en/Directory-Servers.md:9
+#: ../wiki/en/Directory-Servers.md:9
 msgid ""
 "{% include breadcrumb.html root=\"More\" branch1=\"Running a Server\" "
 "branch1-url=\"Running-a-Server\" %}"
@@ -49,12 +49,12 @@ msgstr ""
 "branch1-url=\"Running-a-Server\" %}"
 
 #. type: Plain text
-#: wiki/en/Directory-Servers.md:11
+#: ../wiki/en/Directory-Servers.md:11
 msgid "# Public Server Registration"
 msgstr "# Registro de Servidor Público"
 
 #. type: Plain text
-#: wiki/en/Directory-Servers.md:13
+#: ../wiki/en/Directory-Servers.md:13
 msgid ""
 "Because there is a limit of 150 servers per directory server, you need to "
 "select which directory server you want to advertise your server on. Select a "
@@ -68,7 +68,7 @@ msgstr ""
 "género)."
 
 #. type: Plain text
-#: wiki/en/Directory-Servers.md:15
+#: ../wiki/en/Directory-Servers.md:15
 msgid ""
 "When you start a public server, you will see a message saying whether your "
 "server has been successfully listed or not. If not, and you leave your "
@@ -80,12 +80,12 @@ msgstr ""
 "seguirá intentando registrarse hasta que haya un hueco libre."
 
 #. type: Plain text
-#: wiki/en/Directory-Servers.md:18
+#: ../wiki/en/Directory-Servers.md:18
 msgid "## Headless servers"
 msgstr "## Servidores 'Headless'"
 
 #. type: Plain text
-#: wiki/en/Directory-Servers.md:20
+#: ../wiki/en/Directory-Servers.md:20
 msgid ""
 "Set directory (genre) server using the `--directoryserver` (`-e`) option as "
 "follows:"
@@ -94,7 +94,7 @@ msgstr ""
 "directoryserver` (`-e`) como sigue:"
 
 #. type: Plain text
-#: wiki/en/Directory-Servers.md:30
+#: ../wiki/en/Directory-Servers.md:30
 #, no-wrap
 msgid ""
 "| Genre |   Server address           |\n"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-07-06 07:07+0000\n"
+"POT-Creation-Date: 2021-07-06 10:06+0000\n"
 "PO-Revision-Date: 2021-06-03 08:35+0200\n"
 "Last-Translator: daryl <darylo1@hotmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
@@ -17,31 +17,31 @@ msgstr ""
 "X-Generator: Lokalize 19.12.3\n"
 
 #. type: YAML Front Matter: lang
-#: wiki/en/Installation-for-Macintosh.md:1
+#: ../wiki/en/Installation-for-Macintosh.md:1
 #, no-wrap
 msgid "en"
 msgstr "de"
 
 #. type: YAML Front Matter: layout
-#: wiki/en/Installation-for-Macintosh.md:1
+#: ../wiki/en/Installation-for-Macintosh.md:1
 #, no-wrap
 msgid "wiki"
 msgstr "wiki"
 
 #. type: YAML Front Matter: permalink
-#: wiki/en/Installation-for-Macintosh.md:1
+#: ../wiki/en/Installation-for-Macintosh.md:1
 #, no-wrap
 msgid "/wiki/Installation-for-Macintosh"
 msgstr "/wiki/Installation-for-Macintosh"
 
 #. type: YAML Front Matter: title
-#: wiki/en/Installation-for-Macintosh.md:1
+#: ../wiki/en/Installation-for-Macintosh.md:1
 #, no-wrap
 msgid "Installation for macOS"
 msgstr "Installation auf macOS"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:9
+#: ../wiki/en/Installation-for-Macintosh.md:9
 msgid ""
 "{% include breadcrumb.html root=\"Using Jamulus\" branch1=\"Getting Started"
 "\" branch1-url=\"Getting-Started\" %}"
@@ -50,12 +50,12 @@ msgstr ""
 "\" branch1-url=\"Getting-Started\" %}"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:11
+#: ../wiki/en/Installation-for-Macintosh.md:11
 msgid "# Installation for macOS"
 msgstr "# Installation auf macOS"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:13
+#: ../wiki/en/Installation-for-Macintosh.md:13
 msgid ""
 "Make sure you've already read the [Getting Started](Getting-Started) page."
 msgstr ""
@@ -63,7 +63,7 @@ msgstr ""
 "gelesen hast."
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:15
+#: ../wiki/en/Installation-for-Macintosh.md:15
 msgid ""
 "[Download Jamulus]({{ site.download_root_link }}{{ site.download_file_names."
 "mac }}){: .button}\\\\"
@@ -72,7 +72,7 @@ msgstr ""
 "download_file_names.mac }}){: .button}\\\\"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:17
+#: ../wiki/en/Installation-for-Macintosh.md:17
 #, no-wrap
 msgid ""
 "**macOS Sierra (10.12) or lower:** [Download legacy version]({{ site.download_root_link }}{{ site.download_file_names.mac-legacy }})\\\\\n"
@@ -82,19 +82,19 @@ msgstr ""
 "**Alternativ-Download:** [SourceForge](https://sourceforge.net/projects/llcon/files/latest/download)\n"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:18
+#: ../wiki/en/Installation-for-Macintosh.md:18
 #, no-wrap
 msgid "**Install Jamulus**: Open the downloaded `.dmg` file, agree to the license, *drag and drop* the two icons you see in the window (Jamulus client and server) into your *Applications folder*. After that, you can close this window.\n"
 msgstr "**Installiere Jamulus**: Öffne die `.dmg` Datei, stimme der Lizenz zu, *klicke und ziehe* beide Icons (Jamulus-Client und -Server) in den Ordner „Programme“ (oder \"Applications\"). Danach kannst du das Fenster schließen.\n"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:19
+#: ../wiki/en/Installation-for-Macintosh.md:19
 #, no-wrap
 msgid "**Run Jamulus**. Now you should be able to use Jamulus just like any other application. If you see a message which tells you that Jamulus can't be opened because the developer can't be verified, read on and have a look at the following section.\n"
 msgstr "**Starte Jamulus**. Nun kannst du Jamulus benutzen wie jede andere App. Falls du eine Meldung siehst, die besagt, dass Jamulus nicht geöffnet werden kann, da der Entwickler nicht überprüft werden kann, lese den nächsten Abschnitt weiter.\n"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:21
+#: ../wiki/en/Installation-for-Macintosh.md:21
 msgid ""
 "_You can remove the folder in the Downloads directory containing the `.dmg` "
 "and eject the \"Jamulus\" drive on your desktop. They are no longer needed._"
@@ -104,20 +104,20 @@ msgstr ""
 "Beides wird nicht mehr gebraucht._"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:23
+#: ../wiki/en/Installation-for-Macintosh.md:23
 #, no-wrap
 msgid "***\n"
 msgstr "***\n"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:25
+#: ../wiki/en/Installation-for-Macintosh.md:25
 msgid "## \"Jamulus\" can't be opened because the developer cannot be verified"
 msgstr ""
 "## Jamulus kann nicht geöffnet werden, da es von einem nicht verifizierten "
 "Entwickler stammt"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:27
+#: ../wiki/en/Installation-for-Macintosh.md:27
 msgid ""
 "<figure><img src=\"{{site.url}}/assets/img/en-screenshots/verification-mac."
 "png\" loading=\"lazy\" alt=\"Image of a macOS warning screen for Jamulus "
@@ -128,7 +128,7 @@ msgstr ""
 "Entwicklers\"></figure>"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:29
+#: ../wiki/en/Installation-for-Macintosh.md:29
 msgid ""
 "The first time you try to double-click Jamulus to run it, you will probably "
 "see a message saying it cannot be opened. We don't code-sign Jamulus yet "
@@ -140,27 +140,27 @@ msgstr ""
 "signieren (das kostet eine Stange Geld)."
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:31
+#: ../wiki/en/Installation-for-Macintosh.md:31
 msgid "To open Jamulus"
 msgstr "Um dieses Problem zu lösen"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:32
+#: ../wiki/en/Installation-for-Macintosh.md:32
 msgid "Navigate to the Applications folder via Finder"
 msgstr "Öffne den Ordner „Programme“ (oder „Applications“) im Finder"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:33
+#: ../wiki/en/Installation-for-Macintosh.md:33
 msgid "Double-click on Jamulus and wait for the above-mentioned message"
 msgstr "Auf Jamulus doppelklicken (die o.g. Meldung taucht auf)"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:34
+#: ../wiki/en/Installation-for-Macintosh.md:34
 msgid "Close this message by clicking on \"Cancel\""
 msgstr "Auf „Abbrechen“ klicken, um diese Meldung zu schließen"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:35
+#: ../wiki/en/Installation-for-Macintosh.md:35
 msgid ""
 "Now control-click (or right-click) on Jamulus, and select \"Open\" from the "
 "top of the menu."
@@ -169,7 +169,7 @@ msgstr ""
 "und wähle dann „Öffnen“ oben im Menü aus."
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:38
+#: ../wiki/en/Installation-for-Macintosh.md:38
 msgid ""
 "You will then get a slightly different version of the same message, which "
 "allows you to click \"Open\" and go ahead with running it. You will not be "
@@ -185,12 +185,12 @@ msgstr ""
 "mh40616/mac)."
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:40
+#: ../wiki/en/Installation-for-Macintosh.md:40
 msgid "## All installed?"
 msgstr "## Alles installiert?"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:42
+#: ../wiki/en/Installation-for-Macintosh.md:42
 msgid ""
 "Jamulus has been installed and can be used now. You can now take a look at "
 "the"
@@ -199,7 +199,7 @@ msgstr ""
 "folgende Seite an:"
 
 #. type: Plain text
-#: wiki/en/Installation-for-Macintosh.md:43
+#: ../wiki/en/Installation-for-Macintosh.md:43
 #, fuzzy
 #| msgid "[Jamulus Onboarding page](Getting-Started){: .button}"
 msgid "[Jamulus setup page](Getting-Started){: .button}"
