@@ -4,7 +4,7 @@ title: "Choosing a Server Type"
 lang: "en"
 permalink: "/wiki/Choosing-a-Server-Type"
 ---
-TEST 3
+TEST 4
 
 {% include breadcrumb.html root="More" branch1="Running a Server" branch1-url="Running-a-Server" %}
 
