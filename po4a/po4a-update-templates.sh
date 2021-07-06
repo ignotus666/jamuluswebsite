@@ -5,6 +5,7 @@
 # SRC_DIR folder for original English .md files
 # PO_DIR directory where .po files are stored
 
+# Get absolute path and CD to parent directory of script. Will work locally without it, but not via GH actions.
 parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 
 cd "$parent_path"
