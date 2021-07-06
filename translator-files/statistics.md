@@ -110,7 +110,7 @@
 |**es**| **Privacy-Statement.po**|20 translated messages.
 |**es**| **Command-Line-Options.po**|19 translated messages.
 |**es**| **Tips-Tricks-More.po**|55 translated messages.
-|**es**| **Choosing-a-Server-Type.po**|29 translated messages, 1 fuzzy translation.
+|**es**| **Choosing-a-Server-Type.po**|30 translated messages.
 |**es**| **Installation-for-Linux.po**|29 translated messages.
 |**es**| **Network-Requirements.po**|19 translated messages.
 |**es**| **Directory-Servers.po**|11 translated messages.

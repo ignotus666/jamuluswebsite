@@ -4,7 +4,7 @@ layout: wiki
 permalink: /wiki/Choosing-a-Server-Type
 title: 'Elegir un Tipo de Servidor'
 ---
-PRUEBA 3
+PRUEBA 4
 
 {% include breadcrumb.html root="Más" branch1="Ejecutar un Servidor" branch1-url="Running-a-Server" %}
 
