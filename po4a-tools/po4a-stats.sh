@@ -16,7 +16,7 @@ produce_stats () {
 		basename="$(basename -s .md "$file")"
 
 		# Stats printed to translator-files/statistics.md
-		echo -n "|**"$lang"**| **"$basename".po**|" >> "$STATS_FILE"
+		echo -n "|**"$lang"**| **"$basename".po**|"
 		msgfmt --statistics "$PO_DIR/$lang/$basename".po &>> "$STATS_FILE"
 
 	done <   <(find -L "$SRC_DIR" -name "*.md"  -print0)
