@@ -22,7 +22,7 @@ produce_stats () {
 	done <   <(find -L "$SRC_DIR" -name "*.md"  -print0)
 
 	#separator between languages
-	echo "|**-----**|**--------------------**|**--------------------**|" >> "$STATS_FILE"
+	echo '|**-----**|**--------------------**|**--------------------**|' >> "$STATS_FILE"
 }
 
 # Run produce_stats on each language folder
