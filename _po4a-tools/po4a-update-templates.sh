@@ -20,7 +20,7 @@ SRC_DIR="../wiki/en"
 
 # Directory where the po file folders are
 if [ -z "$PO_DIR" ] ; then
-	PO_DIR="../translator-files/po"
+	PO_DIR="../_translator-files/po"
 fi
 
 ####################################

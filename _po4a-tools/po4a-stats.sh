@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Stats file variable
-STATS_FILE="../translator-files/statistics.md"
+STATS_FILE="../_translator-files/statistics.md"
 
 # Remove stats file before creating new one
 rm -f "$STATS_FILE"
