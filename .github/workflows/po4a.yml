@@ -62,4 +62,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ github.token }}
-          branch: GH_actions_test2
+          branch: ${{ github.ref }}
