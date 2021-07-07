@@ -1,10 +1,10 @@
 |Language| File | Status |
-|--------|------|--------|
+      |--------|------|--------|
 |**fr**| **QOS-Windows.po**|0 translated messages, 7 untranslated messages.
 |**fr**| **FAQ.po**|22 translated messages, 4 fuzzy translations, 9 untranslated messages.
 |**fr**| **Server-Linux.po**|15 translated messages, 9 fuzzy translations, 26 untranslated messages.
 |**fr**| **Contribution.po**|10 translated messages.
-|**fr**| **Client-Troubleshooting.po**|47 translated messages, 1 fuzzy translation, 5 untranslated messages.
+|**fr**| **Client-Troubleshooting.po**|47 translated messages, 1 fuzzy translation, 6 untranslated messages.
 |**fr**| **Installation-for-Windows.po**|41 translated messages, 6 fuzzy translations, 1 untranslated message.
 |**fr**| **Demos.po**|13 translated messages.
 |**fr**| **Running-a-Server.po**|13 translated messages, 8 fuzzy translations, 105 untranslated messages.
@@ -22,7 +22,7 @@
 |**it**| **FAQ.po**|2 translated messages, 33 untranslated messages.
 |**it**| **Server-Linux.po**|2 translated messages, 48 untranslated messages.
 |**it**| **Contribution.po**|2 translated messages, 8 untranslated messages.
-|**it**| **Client-Troubleshooting.po**|3 translated messages, 50 untranslated messages.
+|**it**| **Client-Troubleshooting.po**|3 translated messages, 51 untranslated messages.
 |**it**| **Installation-for-Windows.po**|6 translated messages, 42 untranslated messages.
 |**it**| **Demos.po**|2 translated messages, 11 untranslated messages.
 |**it**| **Running-a-Server.po**|2 translated messages, 124 untranslated messages.
@@ -40,7 +40,7 @@
 |**de**| **FAQ.po**|2 translated messages, 33 untranslated messages.
 |**de**| **Server-Linux.po**|2 translated messages, 48 untranslated messages.
 |**de**| **Contribution.po**|2 translated messages, 8 untranslated messages.
-|**de**| **Client-Troubleshooting.po**|3 translated messages, 50 untranslated messages.
+|**de**| **Client-Troubleshooting.po**|3 translated messages, 51 untranslated messages.
 |**de**| **Installation-for-Windows.po**|41 translated messages, 6 fuzzy translations, 1 untranslated message.
 |**de**| **Demos.po**|2 translated messages, 11 untranslated messages.
 |**de**| **Running-a-Server.po**|2 translated messages, 124 untranslated messages.
@@ -58,7 +58,7 @@
 |**pt**| **FAQ.po**|2 translated messages, 33 untranslated messages.
 |**pt**| **Server-Linux.po**|2 translated messages, 48 untranslated messages.
 |**pt**| **Contribution.po**|2 translated messages, 8 untranslated messages.
-|**pt**| **Client-Troubleshooting.po**|3 translated messages, 50 untranslated messages.
+|**pt**| **Client-Troubleshooting.po**|3 translated messages, 51 untranslated messages.
 |**pt**| **Installation-for-Windows.po**|41 translated messages, 6 fuzzy translations, 1 untranslated message.
 |**pt**| **Demos.po**|2 translated messages, 11 untranslated messages.
 |**pt**| **Running-a-Server.po**|2 translated messages, 124 untranslated messages.
@@ -76,7 +76,7 @@
 |**es**| **FAQ.po**|22 translated messages, 4 fuzzy translations, 9 untranslated messages.
 |**es**| **Server-Linux.po**|15 translated messages, 9 fuzzy translations, 26 untranslated messages.
 |**es**| **Contribution.po**|10 translated messages.
-|**es**| **Client-Troubleshooting.po**|47 translated messages, 1 fuzzy translation, 5 untranslated messages.
+|**es**| **Client-Troubleshooting.po**|47 translated messages, 1 fuzzy translation, 6 untranslated messages.
 |**es**| **Installation-for-Windows.po**|41 translated messages, 6 fuzzy translations, 1 untranslated message.
 |**es**| **Demos.po**|13 translated messages.
 |**es**| **Running-a-Server.po**|13 translated messages, 8 fuzzy translations, 105 untranslated messages.
