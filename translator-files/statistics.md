@@ -1,5 +1,5 @@
 |Language| File | Status |
-      |--------|------|--------|
+|--------|------|--------|
 |**fr**| **QOS-Windows.po**|0 translated messages, 7 untranslated messages.
 |**fr**| **FAQ.po**|22 translated messages, 4 fuzzy translations, 9 untranslated messages.
 |**fr**| **Server-Linux.po**|15 translated messages, 9 fuzzy translations, 26 untranslated messages.

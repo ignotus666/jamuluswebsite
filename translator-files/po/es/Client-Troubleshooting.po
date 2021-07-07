@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-07 10:20+0000\n"
+"POT-Creation-Date: 2021-07-07 10:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Daryl Hanlon <darylo1@hotmail.com>\n"
 "Language-Team: Jamulus Translators <jamulus.io>\n"
@@ -41,7 +41,7 @@ msgstr "Resolución de Problemas del Cliente"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:9
-msgid "TEST"
+msgid "TEST 2"
 msgstr ""
 
 #. type: Plain text
