@@ -4,12 +4,8 @@ on:
     paths:
       - translator-files/**.po
       - wiki/en/*.md
-    branches: [ GH_actions_test2, GH_actions_PR ]
-  pull_request:
-    paths:
-      - translator-files/**.po
-      - wiki/en/*.md
-    branches: [ GH_actions_test2, GH_actions_PR ]
+    branches:
+      - GH_actions_test2
 jobs:
   run_po4a:
     permissions:
@@ -68,4 +64,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ github.token }}
-          branch: ${{ github.ref }}
+          branch: GH_actions_test2
