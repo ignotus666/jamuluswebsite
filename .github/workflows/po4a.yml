@@ -1,11 +1,9 @@
 name: Run po4a scripts
 on:
   push:
-    paths:
-      - translator-files/**.po
-      - wiki/en/*.md
-    branches:
-      - GH_actions_test2
+    branches: [ GH_actions_test2, GH_actions_PR ]
+  pull_request:
+    branches: [ GH_actions_PR ]
 jobs:
   run_po4a:
     permissions:
