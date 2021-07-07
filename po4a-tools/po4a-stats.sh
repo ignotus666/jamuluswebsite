@@ -7,8 +7,8 @@ STATS_FILE="../translator-files/statistics.md"
 rm -f "$STATS_FILE"
 
 # Create table header
-echo "|Language| File | Status |" >> "$STATS_FILE"
-echo "|--------|------|--------|" >> "$STATS_FILE"
+echo "|Language| File | Status |
+      |--------|------|--------|" >> "$STATS_FILE"
 
 produce_stats () {
 # Determine file names
