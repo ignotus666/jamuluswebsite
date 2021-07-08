@@ -53,18 +53,18 @@ jobs:
         if: steps.filter.outputs.targets == 'true'
         run: ./_po4a-tools/po4a-create-all-targets.sh
 
-     #  Commit and push results of scripts:
-     # - name: Commit files
-     #   run: |
-     #     git config --local user.name "ignotus666"
-     #     git add .
-     #     git commit -m "Push po4a changes" -a
+      # Commit and push results of scripts:
+      - name: Commit files
+        run: |
+          git config --local user.name "ignotus666"
+          git add .
+          git commit -m "Push po4a changes" -a
 
-     # - name: Push changes # push the output folder to your repo
-     #   uses: ad-m/github-push-action@master
-     #   with:
-     #     github_token: ${{ github.token }}
-     #     branch: GH_actions_test3
+      - name: Push changes # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ github.token }}
+          branch: GH_actions_test3
 
       - name: 📂 setup
         uses: actions/checkout@v2
