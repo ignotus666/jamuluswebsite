@@ -17,7 +17,7 @@ cd "$parent_path"
 ####################################
 
 # Set % threshold for translated .md files to be created
-THRESHOLD="80"
+THRESHOLD="0"
 
 # Folder where source English .md files are
 SRC_DIR="../wiki/en"
