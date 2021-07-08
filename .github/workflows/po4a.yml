@@ -1,4 +1,4 @@
-name: Run po4a scripts, push changes and build/zip site
+name: Run po4a scripts
 on:
   push:
     paths:
@@ -65,25 +65,3 @@ jobs:
         with:
           github_token: ${{ github.token }}
           branch: GH_actions_test2
-
-  build:
-    needs: run_po4a
-    permissions:
-      contents: read
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod a+w /srv/jekyll/Gemfile.lock && chmod 777 /srv/jekyll && jekyll build --future"
-    - name: Zip Website
-      run: zip -r ${{ github.workspace }}/website.zip _site/*
-    - uses: actions/upload-artifact@v2
-      name: Upload Website
-      with:
-        name: Website
-        path: ${{ github.workspace }}/website.zip
-        retention-days: 15
-        if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
