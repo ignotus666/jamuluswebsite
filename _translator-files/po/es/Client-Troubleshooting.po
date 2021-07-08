@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-07-08 17:06+0200\n"
-"PO-Revision-Date: 2021-07-08 17:31+0200\n"
+"PO-Revision-Date: 2021-07-08 17:35+0200\n"
 "Last-Translator: daryl <darylo1@hotmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: Spanish\n"
@@ -44,7 +44,7 @@ msgstr "Resolución de Problemas del Cliente"
 #: ../wiki/en/Client-Troubleshooting.md:9
 #| msgid "TEST 9"
 msgid "TEST 10"
-msgstr "TEST 15"
+msgstr "TEST 16"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:12
