@@ -58,7 +58,7 @@ jobs:
         with:
           github_token: ${{ github.token }}
           branch: GH_actions_test4
-          continue-on-error: true
+        continue-on-error: true
       - name: Create targets
         if: steps.filter.outputs.targets == 'true'
         run: ./_po4a-tools/po4a-create-all-targets.sh
