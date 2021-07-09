@@ -58,7 +58,7 @@ jobs:
         run: |
           git config --local user.name "ignotus666"
           git add .
-          git commit -m "Push po4a changes" -a#
+          git commit -m "Push po4a changes" -a
 
 #      - name: Push changes # push the output folder to your repo
 #        uses: ad-m/github-push-action@master
