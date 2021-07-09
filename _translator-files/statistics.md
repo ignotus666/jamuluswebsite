@@ -76,7 +76,7 @@
 |**es**| **FAQ.po**|22 translated messages, 4 fuzzy translations, 9 untranslated messages.
 |**es**| **Server-Linux.po**|15 translated messages, 9 fuzzy translations, 26 untranslated messages.
 |**es**| **Contribution.po**|10 translated messages.
-|**es**| **Client-Troubleshooting.po**|53 translated messages, 1 fuzzy translation.
+|**es**| **Client-Troubleshooting.po**|52 translated messages, 2 fuzzy translations.
 |**es**| **Installation-for-Windows.po**|41 translated messages, 6 fuzzy translations, 1 untranslated message.
 |**es**| **Demos.po**|13 translated messages.
 |**es**| **Running-a-Server.po**|13 translated messages, 8 fuzzy translations, 105 untranslated messages.
