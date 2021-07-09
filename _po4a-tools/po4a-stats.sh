@@ -11,10 +11,10 @@ layout: wiki
 title: "Statistics"
 lang: "en"
 permalink: "/wiki/Statistics"
----' >> "$STATS_FILE"
+---
+# Current state of website translations
 
-# Create table header
-echo '| Language | Document | Translation status |
+| Language | Document | Translation status |
 |--------|--------|--------|' >> "$STATS_FILE"
 
 produce_stats () {

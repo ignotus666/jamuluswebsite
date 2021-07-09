@@ -17,3 +17,5 @@ Si vous souhaitez aider à la traduction, vous devrez disposer d'un compte GitHu
 ## Vous voulez contribuer au code ?
 
 Consultez nos [directives pour participer au développement](https://github.com/jamulussoftware/jamulus/blob/master/CONTRIBUTING.md).
+
+Check the status of website translations [here](/wiki/statistics).
