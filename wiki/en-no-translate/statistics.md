@@ -2,7 +2,7 @@
 layout: wiki
 title: "Statistics"
 lang: "en"
-permalink: "/wiki/Statistics"
+permalink: "/wiki/statistics"
 ---
 | Language | Document | Translation status |
 |--------|--------|--------|
