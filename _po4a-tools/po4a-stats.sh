@@ -1,11 +1,12 @@
 #!/bin/bash
 
-# Stats file variable
+# Stats file location
 STATS_FILE="../wiki/en-no-translate/statistics.md"
 
 # Remove stats file before creating new one
 rm -f "$STATS_FILE"
 
+# Print yaml front matter and table title/header
 echo '---
 layout: wiki
 title: "Statistics"
@@ -15,7 +16,7 @@ permalink: "/wiki/statistics"
 # Current state of website translations
 
 | Language | Document | Translation status |
-|--------|--------|--------|' >> "$STATS_FILE"
+|----------|----------|--------------------|' >> "$STATS_FILE"
 
 produce_stats () {
 # Determine file names
@@ -28,7 +29,7 @@ produce_stats () {
 
 	done <   <(find -L "$SRC_DIR" -name "*.md"  -print0)
 
-	#separator between languages
+	# Separator between languages
 	echo '|**-----**|**--------------------**|**--------------------**|' >> "$STATS_FILE"
 }
 
