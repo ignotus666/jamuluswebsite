@@ -10,7 +10,7 @@ echo '---
 layout: wiki
 title: "Statistics"
 lang: "en"
-permalink: "/wiki/Statistics"
+permalink: "/wiki/statistics"
 ---
 # Current state of website translations
 
