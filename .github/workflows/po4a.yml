@@ -54,11 +54,11 @@ jobs:
         run: ./_po4a-tools/po4a-create-all-targets.sh
 
       # Commit and push results of scripts:
-#      - name: Commit files
-#        run: |
-#          git config --local user.name "ignotus666"
-#          git add .
-#          git commit -m "Push po4a changes" -a#
+      - name: Commit files
+        run: |
+          git config --local user.name "ignotus666"
+          git add .
+          git commit -m "Push po4a changes" -a#
 
 #      - name: Push changes # push the output folder to your repo
 #        uses: ad-m/github-push-action@master
@@ -66,8 +66,8 @@ jobs:
 #          github_token: ${{ github.token }}
 #          branch: GH_actions_test3
 
-#      - uses: actions/checkout@v2
-#      - name: Build the site in the jekyll/builder container
+      - uses: actions/checkout@v2
+      - name: Build the site in the jekyll/builder container
         run: |
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
