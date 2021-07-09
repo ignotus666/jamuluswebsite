@@ -5,7 +5,7 @@ on:
 #      - _translator-files/**.po
 #      - wiki/en/*.md
     branches:
-      - GH_actions_test3
+      - GH_actions_test4
 jobs:
   run_po4a:
     permissions:
@@ -48,25 +48,20 @@ jobs:
               - '_translator-files/po/*/*.po'
       - name: Update templates
         if: steps.filter.outputs.templates == 'true'
-        run: ./_po4a-tools/po4a-update-templates.sh
-      - name: Create targets
-        if: steps.filter.outputs.targets == 'true'
-        run: ./_po4a-tools/po4a-create-all-targets.sh
-
-      # Commit and push results of scripts
-      - name: Commit and push files
         run: |
+          ./_po4a-tools/po4a-update-templates.sh
           git config --local user.name "ignotus666"
           git add .
           git commit -m "Push po4a changes" -a
-        continue-on-error: true
-
-      - name: Push changes # push the output folder to your repo
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ github.token }}
-          branch: GH_actions_test3
-        continue-on-error: true
+          branch: GH_actions_test4
+          continue-on-error: true
+      - name: Create targets
+        if: steps.filter.outputs.targets == 'true'
+        run: ./_po4a-tools/po4a-create-all-targets.sh
 
       # Build, zip and upload site
       - name: Build the site in the jekyll/builder container
