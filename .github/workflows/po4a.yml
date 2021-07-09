@@ -1,9 +1,9 @@
 name: Run po4a scripts
 on:
   push:
-    paths:
-      - _translator-files/**.po
-      - wiki/en/*.md
+#    paths:
+#      - _translator-files/**.po
+#      - wiki/en/*.md
     branches:
       - GH_actions_test3
 jobs:
@@ -66,8 +66,8 @@ jobs:
 #          github_token: ${{ github.token }}
 #          branch: GH_actions_test3
 
-      - uses: actions/checkout@v2
-      - name: Build the site in the jekyll/builder container
+#      - uses: actions/checkout@v2
+#      - name: Build the site in the jekyll/builder container
         run: |
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
