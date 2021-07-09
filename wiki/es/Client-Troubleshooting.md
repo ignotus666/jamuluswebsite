@@ -5,7 +5,7 @@ permalink: /wiki/Client-Troubleshooting
 title: 'Resolución de Problemas del Cliente'
 ---
 
-TEST 24
+TEST 25
 
 # Troubleshooting
  {:.no_toc}
