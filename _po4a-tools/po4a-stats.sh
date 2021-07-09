@@ -1,10 +1,17 @@
 #!/bin/bash
 
 # Stats file variable
-STATS_FILE="../_translator-files/statistics.md"
+STATS_FILE="../wiki/en-no-translate/statistics.md"
 
 # Remove stats file before creating new one
 rm -f "$STATS_FILE"
+
+echo '---
+layout: wiki
+title: "Statistics"
+lang: "en"
+permalink: "/wiki/Statistics"
+---' >> "$STATS_FILE"
 
 # Create table header
 echo '| Language | Document | Translation status |
