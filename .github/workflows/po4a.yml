@@ -53,7 +53,7 @@ jobs:
         if: steps.filter.outputs.targets == 'true'
         run: ./_po4a-tools/po4a-create-all-targets.sh
 
-      # Commit and push results of scripts:
+        # Commit and push results of scripts:
         - name: Commit files
           run: |
             git config --local user.name "ignotus666"
