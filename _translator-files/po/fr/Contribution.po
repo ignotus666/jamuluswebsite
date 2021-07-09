@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-07-07 07:32+0000\n"
+"POT-Creation-Date: 2021-07-09 14:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,10 +91,15 @@ msgid "## Want to contribute code?"
 msgstr "## Vous voulez contribuer au code ?"
 
 #. type: Plain text
-#: ../wiki/en/Contribution.md:19
+#: ../wiki/en/Contribution.md:20
 msgid ""
 "See our [guidelines for getting involved in development](https://github.com/"
 "jamulussoftware/jamulus/blob/master/CONTRIBUTING.md)."
 msgstr ""
 "Consultez nos [directives pour participer au développement](https://github."
 "com/jamulussoftware/jamulus/blob/master/CONTRIBUTING.md)."
+
+#. type: Plain text
+#: ../wiki/en/Contribution.md:21
+msgid "Check the status of website translations [here](/wiki/statistics)."
+msgstr ""
