@@ -80,4 +80,4 @@ jobs:
           name: Website2
           path: ${{ github.workspace }}/website.zip
           retention-days: 15
-        if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
+          if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
