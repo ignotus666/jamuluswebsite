@@ -70,11 +70,11 @@ jobs:
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/builder:latest /bin/bash -c "chmod a+w /srv/jekyll/Gemfile.lock && chmod 777 /srv/jekyll && jekyll build --future"
       - name: Zip Website
-        run: zip -r ${{ github.workspace }}/_site/*
+        run: zip -r ${{ github.workspace }}/website.zip _site/*
       - uses: actions/upload-artifact@v2
         name: Upload Website
         with:
           name: Website
-          path: ${{ github.workspace }}/website
+          path: ${{ github.workspace }}/website.zip
           retention-days: 15
           if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
