@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Stats file location
-STATS_FILE="../wiki/en-no-translate/Statistics.md"
+STATS_FILE="../wiki/Statistics.md"
 
 # Remove stats file before creating new one
 rm -f "$STATS_FILE"
