@@ -44,7 +44,6 @@ msgstr "Resolución de Problemas del Cliente"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:9
-#, fuzzy
 #| msgid "TEST 33"
 msgid "TEST 34"
 msgstr "PRUEBA 35"
