@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Stats file location
-STATS_FILE="../wiki/en-no-translate/statistics.md"
+STATS_FILE="../wiki/en-no-translate/Statistics.md"
 
 # Remove stats file before creating new one
 rm -f "$STATS_FILE"
@@ -11,9 +11,9 @@ echo '---
 layout: wiki
 title: "Statistics"
 lang: "en"
-permalink: "/wiki/statistics"
+permalink: "/wiki/Statistics"
 ---
-# Current state of website translations
+# Current status of website translations
 
 | Language | Document | Translation status |
 |----------|----------|--------------------|' >> "$STATS_FILE"
