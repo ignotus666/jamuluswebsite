@@ -10,7 +10,7 @@ jobs:
   run_po4a:
     permissions:
       contents: write
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
@@ -123,4 +123,4 @@ jobs:
           publish_dir: ./_site
           # if the repo you are deploying to is <username>.github.io, uncomment the line below.
           # if you are including the line below, make sure your source files are NOT in the master branch:
-          # publish_branch: master
+          publish_branch: ignotus
