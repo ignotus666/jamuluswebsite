@@ -5,7 +5,7 @@ on:
 #      - _translator-files/**.po
 #      - wiki/en/*.md
     branches:
-      - GH_actions_test4
+      - GH_actions_test5
 jobs:
   run_po4a:
     permissions:
@@ -57,7 +57,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ github.token }}
-          branch: GH_actions_test4
+          branch: GH_actions_test5
         continue-on-error: true
       - name: Create targets
         if: steps.filter.outputs.targets == 'true'
