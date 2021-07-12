@@ -44,10 +44,9 @@ msgstr "Resolución de Problemas del Cliente"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:9
-#, fuzzy
 #| msgid "TEST 33"
 msgid "TEST 34"
-msgstr "PRUEBA WEB 1"
+msgstr "PRUEBA WEB 2"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:12
