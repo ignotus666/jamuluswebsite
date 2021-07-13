@@ -29,7 +29,7 @@ jobs:
             sudo cp --force --recursive ~/po4a/* /
           else
             sudo apt install -yq gettext libsgmls-perl libyaml-tiny-perl opensp
-            wget "https://github.com/ignotus666/assets/blob/main/po4a/po4a_0.64-alpha.deb"
+            wget "https://github.com/ignotus666/assets/blob/main/po4a/po4a_0.64_alpha.deb"
             sudo dpkg -i po4a_0.64-alpha.deb
             mkdir -p ~/po4a
             for dep in po4a libcroco3 libosp5 sgml-base gettext libsgmls-perl libyaml-tiny-perl opensp; do
