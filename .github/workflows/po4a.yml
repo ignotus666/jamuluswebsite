@@ -29,8 +29,8 @@ jobs:
             sudo cp --force --recursive ~/po4a/* /
           else
             sudo apt install -yq gettext libsgmls-perl libyaml-tiny-perl opensp
-            curl -sLO https://github.com/ignotus666/assets/blob/main/po4a_0.64.deb && sudo dpkg -i po4a_0.64.deb
-
+            sudo dpkg -i _po4a-tools/po4a_0.64-alpha.deb
+            # curl -sLO https://github.com/ignotus666/assets/blob/main/po4a_0.64.deb && sudo dpkg -i po4a_0.64.deb
             # wget https://github.com/ignotus666/assets/blob/main/po4a_0.64.deb
             # sudo dpkg -i po4a_0.64.deb
             mkdir -p ~/po4a
