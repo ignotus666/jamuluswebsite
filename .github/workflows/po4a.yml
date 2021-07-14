@@ -7,7 +7,7 @@ on:
     branches:
       - GH_actions_test5
 jobs:
-  run po4a and build site:
+  run_po4a_and_build_site:
     permissions:
       contents: write
     runs-on: ubuntu-latest
