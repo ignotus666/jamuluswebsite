@@ -7,7 +7,7 @@ on:
     branches:
       - GH_actions_test5
 jobs:
-  run_po4a:
+  run po4a and build site:
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -29,8 +29,10 @@ jobs:
             sudo cp --force --recursive ~/po4a/* /
           else
             sudo apt install -yq gettext libsgmls-perl libyaml-tiny-perl opensp
-            wget https://github.com/ignotus666/assets/blob/main/po4a_0.64.deb
-            sudo dpkg -i po4a_0.64.deb
+            curl -sLO https://github.com/ignotus666/assets/blob/main/po4a_0.64.deb && sudo dpkg -i po4a_0.64.deb
+
+            # wget https://github.com/ignotus666/assets/blob/main/po4a_0.64.deb
+            # sudo dpkg -i po4a_0.64.deb
             mkdir -p ~/po4a
             for dep in po4a libcroco3 libosp5 sgml-base gettext libsgmls-perl libyaml-tiny-perl opensp; do
                 dpkg -L $dep | while IFS= read -r f; do if test -f $f; then echo $f; fi; done | xargs cp --parents --target-directory ~/po4a/
