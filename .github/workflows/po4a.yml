@@ -45,8 +45,6 @@ jobs:
           filters: |
             templates:
               - 'wiki/en/*.md'
-            targets:
-              - '_translator-files/po/*/*.po'
       - name: Update templates
         if: steps.filter.outputs.templates == 'true'
         run: |
@@ -60,8 +58,7 @@ jobs:
           github_token: ${{ github.token }}
           branch: GH_actions_test5
         continue-on-error: true
-      - name: Create targets
-        if: steps.filter.outputs.targets == 'true'
+      - name: Create translated .md docs
         run: ./_po4a-tools/po4a-create-all-targets.sh
 
       # Build, zip and upload site
