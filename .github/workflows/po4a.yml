@@ -53,7 +53,7 @@ jobs:
           ./_po4a-tools/po4a-update-templates.sh
           git config --local user.name "ignotus666"
           git add .
-          git commit -m "Push po4a changes" -a
+          git commit -m "Updated .po files" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
