@@ -55,8 +55,10 @@ jobs:
           github_token: ${{ github.token }}
           branch: GH_actions_test6
         continue-on-error: true
-      - name: Create translated .md docs
-        run: ./_po4a-tools/po4a-create-all-targets.sh
+      - name: Create translated .md docs and stats
+        run: |
+            ./_po4a-tools/po4a-create-all-targets.sh
+            ./_po4a-tools/po4a-stats.sh
 
 # Build and deploy site
       - name: 💎 setup ruby

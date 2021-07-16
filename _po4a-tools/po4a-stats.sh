@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Folder where source English .md files are
+SRC_DIR="../wiki/en"
+
+# Directory where the po file folders are. Stats are drawn from .po files
+PO_DIR="../_translator-files/po"
+
 # Stats file location
 STATS_FILE="../wiki/Statistics.md"
 

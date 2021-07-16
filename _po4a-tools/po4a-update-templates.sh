@@ -88,6 +88,3 @@ for lang in $(ls "$PO_DIR") ; do
 	    rm "$PO_DIR/$lang/"*.po~
     fi
 done
-
-# Produce a file with translation status of all .po files
-source ./po4a-stats.sh
