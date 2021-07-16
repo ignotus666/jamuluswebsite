@@ -54,6 +54,7 @@ jobs:
             git add .
             git commit -m "Updated .po files" -a
       - name: Push changes
+        if: ${{ github.event_name == 'push' && steps.filter.outputs.templates == 'true'}}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ github.token }}
