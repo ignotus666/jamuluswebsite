@@ -1,12 +1,8 @@
 #!/bin/bash
 
-cd "$SCRIPT_DIR"
 
 # Stats file location
 STATS_FILE="../wiki/Statistics.md"
-
-# Remove stats file before creating new one
-#rm -f "$STATS_FILE"
 
 # Print yaml front matter and table title/header
 echo '---
