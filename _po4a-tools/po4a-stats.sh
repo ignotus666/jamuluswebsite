@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "$SCRIPT_DIR"
+
 # Stats file location
 STATS_FILE="../wiki/Statistics.md"
 
