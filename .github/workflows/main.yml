@@ -1,0 +1,113 @@
+name: Build and deploy jekyll site
+on:
+  push:
+    branches:
+      - GH_actions_test6
+jobs:
+  run_po4a_and_build_site:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+# Retrieve po4a installation cache or create it if not found:
+      - name: Cache po4a dependencies
+        uses: actions/cache@v1.0.3
+        id: cache-po4a
+        with:
+          path: "~/po4a"
+          key: ${{ runner.os }}-po4a
+      - name: Install or retrieve po4a from cache
+        env:
+          CACHE_HIT: ${{steps.cache-po4a.outputs.cache-hit}}
+        run: |
+          if [[ "$CACHE_HIT" == 'true' ]]; then
+            sudo cp --force --recursive ~/po4a/* /
+          else
+            sudo apt install -yq gettext libsgmls-perl libyaml-tiny-perl opensp
+            wget -O po4a.deb https://github.com/ignotus666/assets/raw/main/po4a/po4a_0.64-alpha.deb
+            sudo dpkg -i po4a.deb
+            mkdir -p ~/po4a
+            for dep in po4a libcroco3 libosp5 sgml-base gettext libsgmls-perl libyaml-tiny-perl opensp; do
+                dpkg -L $dep | while IFS= read -r f; do if test -f $f; then echo $f; fi; done | xargs cp --parents --target-directory ~/po4a/
+            done
+          fi
+
+# Paths changes filter:
+      - uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          base: ${{ github.ref }}
+          filters: |
+            templates:
+              - 'wiki/en/*.md'
+      - name: Update templates
+        if: steps.filter.outputs.templates == 'true'
+        run: |
+          ./_po4a-tools/po4a-update-templates.sh
+          git config --local user.name "ignotus666"
+          git add .
+          git commit -m "Updated .po files" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ github.token }}
+          branch: GH_actions_test6
+        continue-on-error: true
+      - name: Create translated .md docs
+        run: ./_po4a-tools/po4a-create-all-targets.sh
+
+# Build and deploy site
+      - name: 💎 setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6 # can change this to 2.7 or whatever version you prefer
+
+      - name: 🔨 install dependencies & build site
+        uses: limjh16/jekyll-action-ts@v2
+        with:
+          enable_cache: true
+          ### Enables caching. Similar to https://github.com/actions/cache.
+          #
+          #format_output: false
+          ### Uses prettier https://prettier.io to format jekyll output HTML.
+          #
+          # prettier_opts: '{ "useTabs": true }'
+          ### Sets prettier options (in JSON) to format output HTML. For example, output tabs over spaces.
+          ### Possible options are outlined in https://prettier.io/docs/en/options.html
+          #
+          # prettier_ignore: 'about/*'
+          ### Ignore paths for prettier to not format those html files.
+          ### Useful if the file is exceptionally large, so formatting it takes a while.
+          ### Also useful if HTML compression is enabled for that file / formatting messes it up.
+          #
+          # jekyll_src: sample_site
+          ### If the jekyll website source is not in root, specify the directory. (in this case, sample_site)
+          ### By default, this is not required as the action searches for a _config.yml automatically.
+          #
+          # gem_src: sample_site
+          ### By default, this is not required as the action searches for a _config.yml automatically.
+          ### However, if there are multiple Gemfiles, the action may not be able to determine which to use.
+          ### In that case, specify the directory. (in this case, sample_site)
+          ###
+          ### If jekyll_src is set, the action would automatically choose the Gemfile in jekyll_src.
+          ### In that case this input may not be needed as well.
+          #
+          # key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          # restore-keys: ${{ runner.os }}-gems-
+          ### In cases where you want to specify the cache key, enable the above 2 inputs
+          ### Follows the format here https://github.com/actions/cache
+          #
+          # custom_opts: '--drafts --lsi'
+          ### If you need to specify any Jekyll build options, enable the above input
+          ### Flags accepted can be found here https://jekyllrb.com/docs/configuration/options/#build-command-options
+
+      - name: 🚀 deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          # if the repo you are deploying to is <username>.github.io, uncomment the line below.
+          # if you are including the line below, make sure your source files are NOT in the master branch:
+          # publish_branch: master
