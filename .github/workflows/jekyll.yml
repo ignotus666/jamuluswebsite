@@ -47,7 +47,7 @@ jobs:
       - name: Update templates
         if: steps.filter.outputs.templates == 'true'
         run: ./_po4a-tools/po4a-update-templates.sh
-      - name: Push changes to repo if action triggered on:push
+      - name: Push changes to repo if action triggered on:push and templates need updating
         if: ${{ github.event_name == 'push' && steps.filter.outputs.templates == 'true'}}
         run: |
             git config --local user.name "ignotus666"
@@ -57,7 +57,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ github.token }}
-          branch: ${GITHUB_REF##*/}
+          branch: ${{ github.ref }}
 #        continue-on-error: true
       - name: Create translated .md docs and stats
         run: |
