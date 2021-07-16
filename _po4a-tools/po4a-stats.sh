@@ -1,16 +1,5 @@
 #!/bin/bash
 
-# Sometimes the script needs help to establish where it is in the file system
-SCRIPT_DIR=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
-
-cd "$SCRIPT_DIR"
-
-# Folder where source English .md files are
-SRC_DIR="../wiki/en"
-
-# Directory where the po file folders are. Stats are drawn from .po files
-PO_DIR="../_translator-files/po"
-
 # Stats file location
 STATS_FILE="../wiki/Statistics.md"
 

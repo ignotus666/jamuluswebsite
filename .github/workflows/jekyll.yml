@@ -46,7 +46,7 @@ jobs:
         if: steps.filter.outputs.templates == 'true'
         run: ./_po4a-tools/po4a-update-templates.sh
       - name: Push changes if triggered by push
-        if: ${{ github.event_name == 'push' }}
+        if: ${{ github.event_name == 'push' && steps.filter.outputs.templates == 'true'}}
         run: |
             git config --local user.name "ignotus666"
             git add .
