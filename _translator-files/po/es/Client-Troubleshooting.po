@@ -46,7 +46,7 @@ msgstr "Resolución de Problemas del Cliente"
 #: ../wiki/en/Client-Troubleshooting.md:9
 #| msgid "TEST 44"
 msgid "TEST 45"
-msgstr "PRUEBA 45"
+msgstr "PRUEBA 46"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:12

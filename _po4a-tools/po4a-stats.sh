@@ -4,7 +4,7 @@
 STATS_FILE="../wiki/Statistics.md"
 
 # Remove stats file before creating new one
-rm -f "$STATS_FILE"
+#rm -f "$STATS_FILE"
 
 # Print yaml front matter and table title/header
 echo '---
