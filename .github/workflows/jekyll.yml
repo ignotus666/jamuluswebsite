@@ -47,7 +47,7 @@ jobs:
         run: ./_po4a-tools/po4a-update-templates.sh
       - name: Push changes if triggered by push
         if: ${{ github.event_name == 'push' }}
-          run: |
+        run: |
             git config --local user.name "ignotus666"
             git add .
             git commit -m "Updated .po files" -a
