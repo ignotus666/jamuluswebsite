@@ -45,11 +45,12 @@ jobs:
       - name: Update templates
         if: steps.filter.outputs.templates == 'true'
         run: ./_po4a-tools/po4a-update-templates.sh
-          if: ${{ github.event_name == 'push' }}
-            run: |
-              git config --local user.name "ignotus666"
-              git add .
-              git commit -m "Updated .po files" -a
+      - name: Push changes if triggered by push
+        if: ${{ github.event_name == 'push' }}
+          run: |
+            git config --local user.name "ignotus666"
+            git add .
+            git commit -m "Updated .po files" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
