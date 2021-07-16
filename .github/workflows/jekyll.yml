@@ -1,8 +1,10 @@
 name: Jekyll site CI
 on:
+# test5 == next-release; test6 == release
+  pull_request:
+    branches: [ GH_actions_test5, GH_actions_test6 ]
   push:
-    branches:
-      - GH_actions_test6
+    branches: [ GH_actions_test5 ]
 jobs:
   Jekyll_site_CI:
     permissions:

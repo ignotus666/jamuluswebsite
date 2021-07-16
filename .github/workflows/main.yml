@@ -1,5 +1,6 @@
 name: Build and deploy jekyll site
 on:
+# test6 == next-release; test5 == release
   push:
     branches:
       - GH_actions_test6
