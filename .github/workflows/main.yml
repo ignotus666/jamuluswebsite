@@ -58,7 +58,6 @@ jobs:
       - name: Create translated .md docs and stats
         run: |
             ./_po4a-tools/po4a-create-all-targets.sh
-            ./_po4a-tools/po4a-stats.sh
 
 # Build and deploy site
       - name: 💎 setup ruby
