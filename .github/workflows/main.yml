@@ -51,14 +51,13 @@ jobs:
           git add .
           git commit -m "Updated .po files" -a
       - name: Push changes
-        if: ${{ steps.filter.outputs.templates == 'true'}}
+        if: steps.filter.outputs.templates == 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ github.token }}
           branch: GH_actions_test6
       - name: Create translated .md docs and stats
-        run: |
-            ./_po4a-tools/po4a-create-all-targets.sh
+        run: ./_po4a-tools/po4a-create-all-targets.sh
 
 # Build and deploy site
       - name: 💎 setup ruby

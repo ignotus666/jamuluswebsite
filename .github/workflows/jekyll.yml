@@ -36,7 +36,7 @@ jobs:
             done
           fi
 
-# Paths changes filter:
+# Paths changes filter. If there's been a change to any files defined in the filter, the step (update templates) runs:
       - uses: dorny/paths-filter@v2
         id: filter
         with:
@@ -47,22 +47,23 @@ jobs:
       - name: Update templates
         if: steps.filter.outputs.templates == 'true'
         run: ./_po4a-tools/po4a-update-templates.sh
+# This step only runs if a PR is merged:
       - name: Push changes to repo if action triggered on:push and templates need updating
         if: ${{ github.event_name == 'push' && steps.filter.outputs.templates == 'true'}}
         run: |
             git config --local user.name "ignotus666"
             git add .
             git commit -m "Updated .po files" -a
+# Same as previous step:
       - name: Push changes
         if: ${{ github.event_name == 'push' && steps.filter.outputs.templates == 'true'}}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ github.token }}
           branch: ${{ github.ref }}
-#        continue-on-error: true
+# Create translated .md files. Never pushed to the repo.
       - name: Create translated .md docs and stats
-        run: |
-            ./_po4a-tools/po4a-create-all-targets.sh
+        run: ./_po4a-tools/po4a-create-all-targets.sh
 
 # Build, zip and upload site
       - name: Build the site in the jekyll/builder container
