@@ -60,7 +60,10 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ github.token }}
-          branch: ${{ github.ref }}
+          if: ${{ github.base_ref == refs/heads/GH_actions_test6 }}
+          branch: GH_actions_test6
+          if: ${{ !github.base_ref == refs/heads/GH_actions_test6 }}
+          branch: GH_actions_test5
 # Create translated .md files. Never pushed to the repo.
       - name: Create translated .md docs and stats
         run: ./_po4a-tools/po4a-create-all-targets.sh
