@@ -54,19 +54,16 @@ jobs:
             git config --local user.name "ignotus666"
             git add .
             git commit -m "Updated .po files" -a
+
+      - name: Get branch name
+        run: echo "GIT_BRANCH=${GITHUB_REF##*/}" >> $GITHUB_ENV
 # Same as previous step:
       - name: Push changes
-        if: ${{ github.event_name == 'push' && steps.filter.outputs.templates == 'true' && github.base_ref == 'GH_actions_test6'}}
+        if: ${{ github.event_name == 'push' && steps.filter.outputs.templates == 'true' }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ github.token }}
-          branch: GH_actions_test6
-      - name: Push changes
-        if: ${{ github.event_name == 'push' && steps.filter.outputs.templates == 'true' && github.base_ref == 'GH_actions_test5'}}
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ github.token }}
-          branch: GH_actions_test5
+          branch: ${GIT_BRANCH}
 # Create translated .md files. Never pushed to the repo.
       - name: Create translated .md docs and stats
         run: ./_po4a-tools/po4a-create-all-targets.sh
