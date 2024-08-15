@@ -72,12 +72,12 @@ msgstr "Jamulus te permite tocar, ensayar o improvisar con tus amigos, tu grupo 
 #. type: Attribute 'src' of: <div><div><figure><a><img>
 #: ../wiki/en/misc/1-index.md:32
 msgid "{% include img/en-screenshots/main-screen-medium.inc %}"
-msgstr ""
+msgstr "{% include img/es-screenshots/main-screen-medium.inc %}"
 
 #. type: Attribute 'alt' of: <div><div><figure><a><img>
 #: ../wiki/en/misc/1-index.md:32
 msgid "A screenshot of the main mixer window showing five people from different countries connected."
-msgstr ""
+msgstr "Imagen de la ventama principal del mezclador mostrando a cinco personas conectadas desde países diferentes"
 
 #. type: Content of: <div><div><figure><a><figcaption>
 #: ../wiki/en/misc/1-index.md:34
