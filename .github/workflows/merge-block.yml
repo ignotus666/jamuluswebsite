@@ -10,6 +10,7 @@ jobs:
     name: Prevent Merging
     runs-on: ubuntu-22.04
     steps:
+      - uses: actions/checkout@v4
       - name: Check for label
         run: |
           echo "This Pull Request has the Check Weblate label"
