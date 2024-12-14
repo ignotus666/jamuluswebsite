@@ -1,0 +1,17 @@
+name: Do Not Merge
+on:
+  workflow_run:
+    workflows: ["Jekyll site CI"]
+    types:
+      - completed
+jobs:
+  do-not-merge:
+    if: ${{ contains(github.event.*.labels.*.name, 'Check Weblate') }}
+    name: Prevent Merging
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Check for label
+        run: |
+          echo "This Pull Request has the Check Weblate label"
+          echo "If there are no pending translations to merge, remove the label"
+          exit 1
