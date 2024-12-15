@@ -1,7 +1,7 @@
 name: Do Not Merge
 on:
   workflow_run:
-    workflows: ["Jekyll site CI"]
+    workflows: ["Pull Request Labeler"]
     types:
       - completed
 jobs:
