@@ -1,4 +1,4 @@
-name: "Pull Request Labeler"
+name: Pull Request Labeler
 on:
 - pull_request_target
 
@@ -10,14 +10,3 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
     - uses: actions/labeler@v5
-
-  do-not-merge:
-    needs: labeler
-    if: contains(github.event.pull_request.labels.*.name, 'Check Weblate')
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check for label
-        run: |
-          echo "This Pull Request has the Check Weblate label"
-          echo "If there are no pending translations to merge, remove the label"
-          exit 1

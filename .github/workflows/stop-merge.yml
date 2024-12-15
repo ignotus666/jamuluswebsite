@@ -1,0 +1,19 @@
+name: Stop merge
+
+# Only trigger, when the build workflow succeeded
+on:
+  workflow_run:
+    workflows: ["Pull Request Labeler"]
+    types:
+      - completed
+
+jobs:
+  do-not-merge:
+    if: contains(github.event.pull_request.labels.*.name, 'Check Weblate')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for label
+        run: |
+          echo "This Pull Request has the Check Weblate label"
+          echo "If there are no pending translations to merge, remove the label"
+          exit 1
