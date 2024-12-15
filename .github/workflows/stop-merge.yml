@@ -6,10 +6,11 @@ on:
     workflows: ["Pull Request Labeler"]
     types:
       - completed
+      - labeled
 
 jobs:
   do-not-merge:
-    if: contains(github.event.pull_request.labels.*.name, 'Check Weblate')
+    if: github.event.label.name == 'Check Weblate'
     runs-on: ubuntu-22.04
     steps:
       - name: Check for label
