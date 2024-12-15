@@ -13,11 +13,10 @@ jobs:
 
   do-not-merge:
     needs: labeler
-    if: ${{ contains(github.event.*.labels.*.name, 'Check Weblate') }}
+    if: github.event.label.name == 'Check Weblate'
     name: Prevent Merging
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v4
     - name: Check for label
       run: |
         echo "This Pull Request has the Check Weblate label"
