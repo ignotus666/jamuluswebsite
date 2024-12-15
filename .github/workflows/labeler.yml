@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check for label
-      run: |
-        echo "This Pull Request has the Check Weblate label"
-        echo "If there are no pending translations to merge, remove the label"
-        exit 1
+        run: |
+          echo "This Pull Request has the Check Weblate label"
+          echo "If there are no pending translations to merge, remove the label"
+          exit 1
