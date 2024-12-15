@@ -12,6 +12,7 @@ jobs:
     if: contains(github.event.pull_request.labels.*.name, 'Check Weblate')
     runs-on: ubuntu-22.04
     steps:
+      - name: Check for label
         run: |
           echo "This Pull Request has the Check Weblate label"
           echo "If there are no pending translations to merge, remove the label"
