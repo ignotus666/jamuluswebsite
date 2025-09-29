@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   pull_request:
     branches: [ next-release, release ]
+    types: [opened, synchronize, labeled, unlabeled]
   push:
     branches: [ next-release ]
     paths:
