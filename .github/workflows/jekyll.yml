@@ -8,6 +8,34 @@ on:
     paths:
       - 'wiki/en/**'
 jobs:
+  add_pr_label:
+    if: github.event_name == 'pull_request' && github.base_ref == 'next-release'
+    permissions:
+      pull-requests: write
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          base: ${{ github.ref }}
+          filters: |
+            en_files_changed:
+              - 'wiki/en/**'
+              
+      - name: Add "Check for Weblate PR" label
+        if: steps.filter.outputs.en_files_changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['Check for Weblate PR']
+            })
+
   jekyll_site_ci:
     permissions:
       contents: write
