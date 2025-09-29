@@ -46,8 +46,8 @@ msgstr "클라이언트 문제 해결"
 #. type: Title #
 #: ../wiki/en/Client-Troubleshooting.md:8
 #, no-wrap
-msgid "Troubleshooting"
-msgstr "문제 해결하기"
+msgid "This is a test"
+msgstr ""
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:10
@@ -335,6 +335,10 @@ msgstr ""
 #: ../wiki/en/Client-Troubleshooting.md:108
 msgid "For anything else, please search or post on the [Discussion Forums](https://github.com/orgs/jamulussoftware/discussions)"
 msgstr "그 외의 사항은 [토론 포럼](https://github.com/orgs/jamulussoftware/discussions)에서 검색하거나 게시해 주세요"
+
+#, no-wrap
+#~ msgid "Troubleshooting"
+#~ msgstr "문제 해결하기"
 
 #~ msgid "TOC"
 #~ msgstr "목차"

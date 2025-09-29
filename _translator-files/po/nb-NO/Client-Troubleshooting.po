@@ -44,7 +44,7 @@ msgstr ""
 #. type: Title #
 #: ../wiki/en/Client-Troubleshooting.md:8
 #, no-wrap
-msgid "Troubleshooting"
+msgid "This is a test"
 msgstr ""
 
 #. type: Plain text

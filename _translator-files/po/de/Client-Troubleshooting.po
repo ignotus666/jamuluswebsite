@@ -44,8 +44,8 @@ msgstr "Client-Fehlerbehebung"
 #. type: Title #
 #: ../wiki/en/Client-Troubleshooting.md:8
 #, no-wrap
-msgid "Troubleshooting"
-msgstr "Fehlerbehebung"
+msgid "This is a test"
+msgstr ""
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:10
@@ -348,6 +348,10 @@ msgstr ""
 #| msgid "For anything else, please search or post on the [Discussion Forums](https://github.com/jamulussoftware/jamulus/discussions)"
 msgid "For anything else, please search or post on the [Discussion Forums](https://github.com/orgs/jamulussoftware/discussions)"
 msgstr "Für alles andere suche bitte im [Forum](https://github.com/jamulussoftware/jamulus/discussions) oder poste dort deine Frage"
+
+#, no-wrap
+#~ msgid "Troubleshooting"
+#~ msgstr "Fehlerbehebung"
 
 #, no-wrap
 #~ msgid ""
